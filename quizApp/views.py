@@ -13,7 +13,7 @@ def index(request):
 
 
 def question(request, id):
-    latest_question_list = Question.objects.filter(quiz_foreign_key = id)
+    latest_question_list = Question.objects.filter(quiz_foreign_key = request.GET.get('quiz_id'))
     context = {
         'latest_question_list': latest_question_list,
     }
