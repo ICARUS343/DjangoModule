@@ -11,7 +11,7 @@ def index(request):
     return render(request, 'quizApp/quiz.html', context)
 
 def question(request):
-    latest_question_list = Question.objects.order_by('id')[:100]
+    latest_question_list = Question.objects.filter(quiz_foreign_key = 'WW2')
     context = {
         'latest_question_list': latest_question_list,
     }

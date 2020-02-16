@@ -24,7 +24,7 @@ class Answer(models.Model):
     is_correct_answer = models.BooleanField(default = False)
     number_of_points = models.IntegerField(default = 0)
     question_foreign_key = models.ForeignKey(Question, on_delete=models.CASCADE)
-    
+
     def __str__(self):
         return self.answer_title
 
