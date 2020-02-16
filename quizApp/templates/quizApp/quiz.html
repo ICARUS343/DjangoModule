@@ -1,26 +1,31 @@
-{%  extends 'quizApp/base.html'%}
+{% extends 'quizApp/base.html' %}
 
 {% block content %}
-<div class="card mx-auto">
-    <div class="card-body">
-        <h1>Quiz</h1>
+    <div class="card mx-auto">
+        <div class="card-body">
+            <h1>Quiz</h1>
 
-        <div class="list-group">
-            <ul class="list-group">
-                {% for Quiz in latest_quiz_list %}
-                    <li class="list-group-item"><a href="{% url 'question' %} {{% request.session['my_key'] = Quiz.quiz_id %}}"
+            <div class="list-group">
+                <ul class="list-group">
+                    {% for Quiz in latest_quiz_list %}
+                        <form action="{% url 'question' %}" method="post" style="display:inline-block">
+                            {% id_token %}
+                            <input type="hidden" name="quiz_id" value="{{ Quiz.quiz_id }}">
+                        </form>
+                        <li class="list-group-item"><a
+                                href="{% url 'question' %} "
 
-                        class ="list-group-item list-group-item-action active">
-                        {{ Quiz.quiz_title }} <br>
-                        Description: {{ Quiz.quiz_description }} <br> Difficulty {{ Quiz.quiz_difficulty }}</a>
-                    </li>
-                {% empty %}
-                    <li class="list-group-item">No articles yet.</li>
-                {% endfor %}
-            </ul>
+                                class="list-group-item list-group-item-action active">
+                            {{ Quiz.quiz_title }} <br>
+                            Description: {{ Quiz.quiz_description }} <br> Difficulty {{ Quiz.quiz_difficulty }}</a>
+                        </li>
+                    {% empty %}
+                        <li class="list-group-item">No articles yet.</li>
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
     </div>
-</div>
 {% endblock %}
 
 
