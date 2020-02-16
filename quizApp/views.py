@@ -3,6 +3,7 @@ from django.shortcuts import render
 
 from .models import *
 
+
 def index(request):
     latest_quiz_list = Quiz.objects.order_by('id')[:5]
     context = {
@@ -10,8 +11,9 @@ def index(request):
     }
     return render(request, 'quizApp/quiz.html', context)
 
-def question(request, Quiz):
-    latest_question_list = Question.objects.filter(quiz_foreign_key = Quiz.quiz_id)
+
+def question(request, quiz):
+    latest_question_list = Question.objects.filter(quiz_foreign_key = quiz.quiz_id)
     context = {
         'latest_question_list': latest_question_list,
     }
