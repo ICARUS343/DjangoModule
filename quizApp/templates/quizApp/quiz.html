@@ -9,11 +9,11 @@
                 <ul class="list-group">
                     {% for Quiz in latest_quiz_list %}
                         <form action="{% url 'question' %}" method="post" style="display:inline-block">
-
+                            name = "key"
                             <input type="hidden" name="quiz_id" value="{{ Quiz.quiz_id }}">
                         </form>
                         <li class="list-group-item"><a
-                                href="{% url 'question' %} "
+                                href="# "
 
                                 class="list-group-item list-group-item-action active">
                             {{ Quiz.quiz_title }} <br>
