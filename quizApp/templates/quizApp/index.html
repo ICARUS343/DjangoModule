@@ -23,11 +23,11 @@
 <div class="card mx-auto">
     <div class="card-body">
         <h1>Quiz</h1>
-        <ul>
+        <ul class = "list-group">
             {% for Quiz in latest_quiz_list %}
-                <li>{{ Quiz.quiz_title }}</li>
+                <li class="list-group-item">{{ Quiz.quiz_title }}</li>
             {% empty %}
-                <li>No articles yet.</li>
+                <li class="list-group-item">No articles yet.</li>
             {% endfor %}
         </ul>
     </div>
