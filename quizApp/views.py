@@ -13,7 +13,7 @@ def index(request):
 
 
 def question(request):
-    latest_question_list = Question.objects.filter(quiz_foreign_key = request.session['my_key'])
+    latest_question_list = Question.objects.filter(quiz_foreign_key = 1)
     context = {
         'latest_question_list': latest_question_list,
     }
