@@ -9,7 +9,7 @@
                 <ul class="list-group">
                     {% for Quiz in latest_quiz_list %}
                         <form action="{% url 'question' %}" method="post" style="display:inline-block">
-                            {% id_token %}
+                            
                             <input type="hidden" name="quiz_id" value="{{ Quiz.quiz_id }}">
                         </form>
                         <li class="list-group-item"><a
