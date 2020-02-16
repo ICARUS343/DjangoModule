@@ -22,10 +22,10 @@
 </div>
 <div class="card mx-auto">
     <div class="card-body">
-        <h1>Articles</h1>
+        <h1>Quiz</h1>
         <ul>
             {% for Quiz in latest_quiz_list %}
-                <li>{{ Quiz.title }}</li>
+                <li>{{ Quiz.quiz_title }}</li>
             {% empty %}
                 <li>No articles yet.</li>
             {% endfor %}
