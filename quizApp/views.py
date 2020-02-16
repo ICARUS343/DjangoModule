@@ -12,7 +12,7 @@ def index(request):
 def question(request):
     latest_question_list = Question.objects.order_by('id')[:100]
     context = {
-        'latest_quiz_list': latest_question_list,
+        'latest_question_list': latest_question_list,
     }
     return render(request, 'quizApp/question.html', context)
 

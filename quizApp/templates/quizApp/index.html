@@ -27,10 +27,10 @@
 
         <div class="list-group">
             <ul class="list-group">
-                {% for Question in latest_quiz_list %}
-                    <li class="list-group-item"><a href="#"
+                {% for Quiz in latest_quiz_list %}
+                    <li class="list-group-item"><a href="{% url 'question' %}"
                         class ="list-group-item list-group-item-action disabled">
-                        {{ Question.question_title }} <br>
+                        {{ Quiz.question_title }} <br>
                         Description: {{ Quiz.quiz_description }} <br> Difficulty {{ Quiz.quiz_difficulty }}</a>
                     </li>
                 {% empty %}
