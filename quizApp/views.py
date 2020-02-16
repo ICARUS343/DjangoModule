@@ -11,3 +11,7 @@ def index(request):
 	'latest_quiz_list' : latest_quiz_list,
     }
     return render(request, 'quizApp/index.html', context)
+
+def quiz_detail(request):
+
+
