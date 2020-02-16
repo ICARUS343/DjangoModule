@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.shortcuts import get_object_or_404, render
 
 from .models import *
 
@@ -9,8 +10,8 @@ def index(request):
     }
     return render(request, 'quizApp/quiz.html', context)
 
-def question(request):
-    latest_question_list = Question.objects.order_by('id')[:100]
+def question(request, Quiz_id):
+    latest_question_list = get_object_or_404(Quiz_id)
     context = {
         'latest_question_list': latest_question_list,
     }
