@@ -10,7 +10,7 @@ def index(request):
     return render(request, 'quizApp/index.html', context)
 
 def question(request):
-    latest_question_list = Question.objects.get(Quiz = Quiz)
+    latest_question_list = Question.objects.get(Quiz)
     context = {
         'latest_quiz_list': latest_question_list,
     }
