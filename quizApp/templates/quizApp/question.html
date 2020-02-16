@@ -29,7 +29,7 @@
             <ul class="list-group">
                 {% for Question in latest_question_list %}
                     <li class="list-group-item"><a href="#"
-                        class ="list-group-item list-group-item-action"> {{ Question.quiz_title }} <br>
+                        class ="list-group-item list-group-item-action disabled"> {{ Question.quiz_title }} <br>
                         Description: {{ Question.question_text }} <br> Multi answer? {{ Question.is_multi_answer }}</a>
                     </li>
                 {% empty %}
