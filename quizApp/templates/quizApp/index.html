@@ -29,7 +29,7 @@
             <ul class="list-group">
                 {% for Quiz in latest_quiz_list %}
                     <li class="list-group-item"><a href="#"
-                                                   class="list-group-item list-group-item-action">{{ Quiz.quiz_title }} + {{Quiz.quiz_description}}+ {{ Quiz.quiz_difficulty }}</a>
+                                                   class="list-group-item list-group-item-action">{{ Quiz.quiz_title }} \n Description: {{Quiz.quiz_description}} \n Difficulty {{ Quiz.quiz_difficulty }}</a>
                     </li>
                 {% empty %}
                     <li class="list-group-item">No articles yet.</li>
