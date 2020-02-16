@@ -28,7 +28,7 @@
         <div class="list-group">
             <ul class="list-group">
                 {% for Quiz in latest_quiz_list %}
-                    <li class="list-group-item"><a href="#"
+                    <li class="list-group-item"><a href={{ question }}
                                                    class="list-group-item list-group-item-action">{{ Quiz.quiz_title }} <br> Description: {{Quiz.quiz_description}} <br> Difficulty {{ Quiz.quiz_difficulty }}</a>
                     </li>
                 {% empty %}

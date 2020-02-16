@@ -1,13 +1,18 @@
 from django.shortcuts import render
 
-from django.http import HttpResponse
-from django.template import loader
-from .models import Quiz
+from .models import *
 
 def index(request):
     latest_quiz_list = Quiz.objects.order_by('id')[:5]
-    template = loader.get_template('quizApp/index.html')
     context = {
 	'latest_quiz_list' : latest_quiz_list,
     }
     return render(request, 'quizApp/index.html', context)
+
+def question(request, Quiz):
+    latest_question_list = Question.objects.get(Quiz = Quiz)
+    context = {
+        'latest_quiz_list': latest_question_list,
+    }
+    return render(request, 'quizApp/index.html', context)
+
