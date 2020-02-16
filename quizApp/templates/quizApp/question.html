@@ -27,14 +27,13 @@
 
         <div class="list-group">
             <ul class="list-group">
-                {% for Question in latest_quiz_list %}
-                    <li class="list-group-item"><a href="#"
-                        class ="list-group-item list-group-item-action disabled">
-                        {{ Question.question_title }} <br>
-                        Description: {{ Quiz.quiz_description }} <br> Difficulty {{ Quiz.quiz_difficulty }}</a>
+                {% for Quiz in latest_quiz_list %}
+                    <li class="list-group-item"><a href="{% url 'question' %} }}"
+                        class ="list-group-item list-group-item-action"> {{ Quiz.quiz_title }} <br>
+                        Description: {{ Question.question_text }} <br> Multi answer? {{ Question.is_multi_answer }}</a>
                     </li>
                 {% empty %}
-                    <li class="list-group-item">No articles yet.</li>
+                    <li class="list-group-item">No question on this quiz yet.</li>
                 {% endfor %}
             </ul>
         </div>
