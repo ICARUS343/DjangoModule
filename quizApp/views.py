@@ -9,7 +9,7 @@ def index(request):
     }
     return render(request, 'quizApp/index.html', context)
 
-def question(request, Quiz):
+def question(request):
     latest_question_list = Question.objects.get(Quiz = Quiz)
     context = {
         'latest_quiz_list': latest_question_list,
