@@ -1,4 +1,5 @@
 from django.urls import path
+from django.shortcuts import render
 
 from . import views
 
@@ -8,7 +9,7 @@ urlpatterns = [
     # ex: /quizApp/5/
     path('<int:quiz_id>/', views.index, name='quiz_detail'),
     # ex: /quizApp/5/question/
-    path('<int:quiz_id>/question/', views.question(1), name='question'),
+    path('<int:quiz_id>/question/', views.question, name='question'),
     # ex: /quizApp/5/answer/
     #path('<int:quiz_id>/answer/', views.answer_detail, name='answer_detail'),
 ]

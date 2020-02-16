@@ -10,8 +10,8 @@ def index(request):
     }
     return render(request, 'quizApp/quiz.html', context)
 
-def question(request, Quiz_id):
-    latest_question_list = get_object_or_404(Quiz_id)
+def question(request):
+    latest_question_list = {% url question quiz_foreign_key=user.username edit_profile_form=EditUserProfileForm %}
     context = {
         'latest_question_list': latest_question_list,
     }
