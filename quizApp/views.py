@@ -10,8 +10,8 @@ def index(request):
     }
     return render(request, 'quizApp/quiz.html', context)
 
-def question(request):
-    latest_question_list = Question.objects.filter(quiz_foreign_key = 2)
+def question(request, Quiz):
+    latest_question_list = Question.objects.filter(quiz_foreign_key = Quiz.quiz_id)
     context = {
         'latest_question_list': latest_question_list,
     }
