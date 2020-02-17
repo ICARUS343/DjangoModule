@@ -1,7 +1,8 @@
 from django.db import models
 
 
-class Quiz(models.Model):	
+class Quiz(models.Model):
+    quiz_id = models.IntegerField
     quiz_title = models.CharField(max_length=50)
     quiz_description = models.CharField(max_length=100)
     quiz_difficulty = models.IntegerField(default = 0)
