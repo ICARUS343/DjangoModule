@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizApp/templates/quizApp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/quizApp/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizApp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quizApp/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/quizApp/templates/registration/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +61,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="997" />
+          <entry key="html" value="1012" />
           <entry key="py" value="1070" />
           <entry key="py@DjangoModules-master" value="59" />
           <entry key="txt" value="295" />
@@ -73,7 +70,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CommandLine" value="59" />
-          <entry key="HTML" value="994" />
+          <entry key="HTML" value="1009" />
           <entry key="PLAIN_TEXT" value="295" />
           <entry key="Python" value="1070" />
           <entry key="SQL" value="3" />
@@ -110,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/quizApp/templates/registration/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+            <state relative-caret-position="240">
+              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -183,6 +180,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>next</find>
+    </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/quizApp/templates/quizApp</dir>
     </dirStrings>
@@ -203,6 +203,7 @@
         <option value="$PROJECT_DIR$/quizApp/templates/quizApp/login.html" />
         <option value="$PROJECT_DIR$/quizApp/urls.py" />
         <option value="$PROJECT_DIR$/quizApp/views.py" />
+        <option value="$PROJECT_DIR$/quizApp/templates/registration/login.html" />
       </list>
     </option>
   </component>
@@ -354,13 +355,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Fixed query">
-      <created>1581888462879</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1581888462941</updated>
     </task>
     <task id="LOCAL-00051" summary="Fixed query">
       <created>1581888603015</created>
@@ -698,7 +692,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581955209333</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="Login Html">
+      <created>1581958277953</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1581958277953</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TodoView">
@@ -920,8 +921,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/quizApp/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+        <state relative-caret-position="240">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>
