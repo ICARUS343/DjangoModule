@@ -13,7 +13,7 @@ class Question(models.Model):
     question_title = models.CharField(max_length=50)
     question_text = models.CharField(max_length=100)
     is_multi_answer = models.BooleanField(default = False)
-    quiz_foreign_key = models.ForeignKey(Quiz, on_delete=models.CASCADE)
+    quiz_foreign_key = models.ForeignKey(Quiz.quiz_id, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.question_title
