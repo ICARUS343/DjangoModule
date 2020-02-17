@@ -9,7 +9,7 @@
                 <ul class="list-group">
                     {% for Quiz in latest_quiz_list %}
                         <li class="list-group-item"><a
-                                href="{% url 'question'%} "
+                                href="{% url 'question' Quiz%} "
                                 class="list-group-item list-group-item-action active">
                             {{ Quiz.quiz_title }} <br>
                             Description: {{ Quiz.quiz_description }} <br> Difficulty {{ Quiz.quiz_difficulty }}</a>

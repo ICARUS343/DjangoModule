@@ -12,9 +12,9 @@ def index(request):
     return render(request, 'quizApp/quiz.html', context)
 
 
-def question(request):
+def question(request, quiz):
     try:
-        latest_question_list = Question.objects.filter(quiz_foreign_key=1)
+        latest_question_list = Question.objects.filter(quiz_foreign_key=quiz)
         context = {'latest_question_list': latest_question_list}
     except Question.DoesNotExist:
         raise Http404("Question does not exist")
