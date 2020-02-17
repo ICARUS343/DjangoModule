@@ -21,3 +21,6 @@ def question(request, quiz):
 
     return render(request, 'quizApp/question.html', context)
 
+def auth(request):
+    return render(request, '')
+
