@@ -2,8 +2,10 @@ from django.shortcuts import get_object_or_404, render
 from django.http import Http404
 
 from .models import *
+from django.contrib.auth.decorators import login_required
 
 
+@login_required(login_url='/accounts/login/')
 def index(request):
     latest_quiz_list = Quiz.objects.order_by('id')[:5]
     context = {
@@ -11,7 +13,7 @@ def index(request):
     }
     return render(request, 'quizApp/quiz.html', context)
 
-
+@login_required(login_url='/accounts/login/')
 def question(request, quiz):
     try:
         latest_question_list = Question.objects.filter(quiz_foreign_key = quiz)
