@@ -4,7 +4,7 @@ from django.shortcuts import render
 from . import views
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('/', views.index, name='index'),
     path('quiz', views.index, name = 'quiz'),
     # ex: /quizApp/5/
     path('quiz/<int:quiz_id>/', views.question, name='question'),
