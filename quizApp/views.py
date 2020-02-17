@@ -14,7 +14,7 @@ def index(request):
 
 def question(request, quiz):
     try:
-        latest_question_list = Question.objects.filter(quiz_foreign_key=quiz)
+        latest_question_list = Question.objects.filter(quiz_foreign_key=quiz.quiz_id)
         context = {'latest_question_list': latest_question_list}
     except Question.DoesNotExist:
         raise Http404("Question does not exist")
