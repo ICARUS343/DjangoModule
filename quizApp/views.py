@@ -21,10 +21,3 @@ def question(request, quiz_id):
 
     return render(request, 'quizApp/question.html', context)
 
-
-def question(request):
-    latest_question_list = Question.objects.filter(quiz_foreign_key=(request.session['my_key']))
-    context = {
-        'latest_question_list': latest_question_list,
-    }
-    return render(request, 'quizApp/question.html', context)
