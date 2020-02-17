@@ -17,8 +17,7 @@ def question(request, quiz_id):
         latest_question_list = Question.objects.filter(pk=quiz_id)
         context = {'latest_question_list': latest_question_list,}
     except Question.DoesNotExist:
-    raise Http404("Question does not exist")
-
+        raise Http404("Question does not exist")
 
     return render(request, 'quizApp/question.html', context)
 
