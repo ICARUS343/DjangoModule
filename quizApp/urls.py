@@ -5,8 +5,8 @@ from . import views
 app_name = 'quizApp';
 urlpatterns = [
 
-    path('', views.index.as_view(), name='index'),
-    path('<int:pk>/', views.question().as_view(), name='question'),
+    path('', views.index, name='index'),
+    path('<int:pk>/', views.question(), name='question'),
 
 
 
