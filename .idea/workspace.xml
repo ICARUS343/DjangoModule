@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quizApp/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/quizApp/templates/registration/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +48,7 @@
         <counts>
           <entry key="html" value="14" />
           <entry key="pip" value="1" />
-          <entry key="py" value="15" />
+          <entry key="py" value="16" />
           <entry key="save" value="1" />
           <entry key="sql" value="1" />
         </counts>
@@ -55,24 +57,24 @@
         <counts>
           <entry key="HTML" value="14" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="16" />
+          <entry key="Python" value="17" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1012" />
-          <entry key="py" value="1070" />
+          <entry key="html" value="1023" />
+          <entry key="py" value="1096" />
           <entry key="py@DjangoModules-master" value="59" />
-          <entry key="txt" value="295" />
+          <entry key="txt" value="310" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CommandLine" value="59" />
-          <entry key="HTML" value="1009" />
-          <entry key="PLAIN_TEXT" value="295" />
-          <entry key="Python" value="1070" />
+          <entry key="HTML" value="1020" />
+          <entry key="PLAIN_TEXT" value="310" />
+          <entry key="Python" value="1096" />
           <entry key="SQL" value="3" />
         </counts>
       </usages-collector>
@@ -107,8 +109,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/quizApp/templates/registration/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Quiz/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-312">
+              <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -182,6 +193,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>next</find>
+      <find>post</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/quizApp/templates/quizApp</dir>
@@ -193,7 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Quiz/settings.py" />
         <option value="$PROJECT_DIR$/quizApp/templates/quizApp/index.html" />
         <option value="$PROJECT_DIR$/quizApp/templates/quizApp/question.html" />
         <option value="$PROJECT_DIR$/quizApp/templates/quizApp/base.html" />
@@ -203,6 +214,7 @@
         <option value="$PROJECT_DIR$/quizApp/templates/quizApp/login.html" />
         <option value="$PROJECT_DIR$/quizApp/urls.py" />
         <option value="$PROJECT_DIR$/quizApp/views.py" />
+        <option value="$PROJECT_DIR$/Quiz/settings.py" />
         <option value="$PROJECT_DIR$/quizApp/templates/registration/login.html" />
       </list>
     </option>
@@ -213,7 +225,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="726" />
     <option name="width" value="714" />
     <option name="height" value="900" />
@@ -246,20 +258,6 @@
               <item name="DjangoModules-master" type="462c0819:PsiDirectoryNode" />
               <item name="quizApp" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoModules-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoModules-master" type="462c0819:PsiDirectoryNode" />
-              <item name="quizApp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="quizApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoModules-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoModules-master" type="462c0819:PsiDirectoryNode" />
-              <item name="quizApp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="registration" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -355,27 +353,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Fixed query">
-      <created>1581888603015</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1581888603016</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Fixed query">
-      <created>1581889173439</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1581889173439</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Fixed query">
-      <created>1581889252727</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1581889252728</updated>
     </task>
     <task id="LOCAL-00054" summary="Fixed query">
       <created>1581889490511</created>
@@ -699,7 +676,28 @@
       <option name="project" value="LOCAL" />
       <updated>1581958277953</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="Base html path.">
+      <created>1581958370516</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1581958370516</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Base html path.">
+      <created>1581958532706</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1581958532707</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Base html path.">
+      <created>1581958730556</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1581958730556</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TodoView">
@@ -712,11 +710,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="726" y="0" width="714" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23809524" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.11444921" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.37228915" />
@@ -826,20 +824,14 @@
     <MESSAGE value="Path fix" />
     <MESSAGE value="Auth urls added." />
     <MESSAGE value="Login Html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login Html" />
+    <MESSAGE value="Base html path." />
+    <option name="LAST_COMMIT_MESSAGE" value="Base html path." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/quizApp/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/bin/pip" />
-    <entry file="file://$PROJECT_DIR$/Quiz/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quizApp/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -919,10 +911,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Quiz/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312">
+          <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/quizApp/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
