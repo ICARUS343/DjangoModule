@@ -10,8 +10,6 @@
                     {% for Quiz in latest_quiz_list %}
                         <li class="list-group-item"><a
                                 href="{% url 'question' %} "
-                                {{ request.session['my_key'] = Quiz.quiz_id}}
-
                                 class="list-group-item list-group-item-action active">
                             {{ Quiz.quiz_title }} <br>
                             Description: {{ Quiz.quiz_description }} <br> Difficulty {{ Quiz.quiz_difficulty }}</a>
