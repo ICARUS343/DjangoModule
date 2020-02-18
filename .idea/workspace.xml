@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1924" />
-          <entry key="py" value="2214" />
+          <entry key="py" value="2244" />
           <entry key="py@DjangoModules-master" value="59" />
           <entry key="txt" value="563" />
         </counts>
@@ -74,7 +71,7 @@
           <entry key="CommandLine" value="59" />
           <entry key="HTML" value="1884" />
           <entry key="PLAIN_TEXT" value="563" />
-          <entry key="Python" value="2214" />
+          <entry key="Python" value="2244" />
           <entry key="SQL" value="40" />
         </counts>
       </usages-collector>
@@ -181,11 +178,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/user/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="108">
-                  <caret line="8" selection-start-line="8" selection-end-line="8" />
+                <state relative-caret-position="228">
+                  <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
                   <folding>
                     <element signature="e#5#69#0" expanded="true" />
-                    <marker date="1582059673433" expanded="true" signature="580:585" ph="..." />
+                    <marker date="1582059901041" expanded="true" signature="654:659" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -242,6 +239,7 @@
     <findStrings>
       <find>next</find>
       <find>post</find>
+      <find>login</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/quizApp/templates/quizApp</dir>
@@ -555,27 +553,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
-    </task>
-    <task id="LOCAL-00128" summary="Registration">
-      <created>1582046629460</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1582046629460</updated>
-    </task>
-    <task id="LOCAL-00129" summary="Registration">
-      <created>1582046681330</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1582046681330</updated>
-    </task>
-    <task id="LOCAL-00130" summary="Registration">
-      <created>1582046706510</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1582046706510</updated>
     </task>
     <task id="LOCAL-00131" summary="Registration">
       <created>1582046778787</created>
@@ -899,7 +876,28 @@
       <option name="project" value="LOCAL" />
       <updated>1582059152890</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="New user registration template">
+      <created>1582059677129</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1582059677129</updated>
+    </task>
+    <task id="LOCAL-00178" summary="New user registration template">
+      <created>1582059716749</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1582059716750</updated>
+    </task>
+    <task id="LOCAL-00179" summary="New user registration template">
+      <created>1582059903917</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1582059903917</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="TodoView">
@@ -913,7 +911,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.10658083" />
@@ -1150,11 +1147,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="228">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding>
             <element signature="e#5#69#0" expanded="true" />
-            <marker date="1582059673433" expanded="true" signature="580:585" ph="..." />
+            <marker date="1582059901041" expanded="true" signature="654:659" ph="..." />
           </folding>
         </state>
       </provider>
