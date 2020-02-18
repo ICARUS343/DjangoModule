@@ -7,7 +7,7 @@ from django.contrib.auth.forms import UserCreationForm
 # Create your views here.
 
 def login(request):
-    return render(request, 'login/register.html')
+    return render(request, 'registration/login.html')
 
 
 def register(request):
