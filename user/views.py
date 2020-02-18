@@ -23,7 +23,7 @@ def login(request):
 
 
 def register(request):
-    return render(request, 'registration/register.html', context)
+    return render(request, 'registration/register.html')
 
 
 def logout(request):
