@@ -18,19 +18,16 @@
             {% if user.is_autheticated %}
                 <h2>Hello {{ user.username }}</h2>
             {% else %}
-                {% url 'login' %}
+                {% url 'accounts/login' %}
             {% endif %}
         </div>
     </div>
 
 </div>
-{% if user.is_autheticated %}
+
     {% block content %}
 
     {% endblock %}
-{% else %}
-     {% url 'login' %}
-{% endif %}
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
