@@ -45,7 +45,7 @@ def pagelogin(request):
     else:
 
         context = {'form': form}
-        return render(request, 'accounts/Login.html', context)
+        return render(request, 'registration/Login.html', context)
 
 
 def index(request):
