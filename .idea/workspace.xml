@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user/templates/registration/logout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizApp/templates/quizApp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/quizApp/templates/quizApp/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,15 +178,15 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/user/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="129">
-                  <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+                <state relative-caret-position="474">
+                  <caret line="42" column="95" selection-start-line="42" selection-start-column="95" selection-end-line="42" selection-end-column="95" />
                   <folding>
                     <element signature="e#5#69#0" expanded="true" />
-                    <marker date="1582061037411" expanded="true" signature="708:713" ph="..." />
-                    <marker date="1582061037411" expanded="true" signature="1346:1469" ph="..." />
+                    <marker date="1582061372971" expanded="true" signature="708:713" ph="..." />
+                    <marker date="1582061372971" expanded="true" signature="1346:1468" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -226,11 +219,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/user/templates/registration/login.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="36" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+                <state relative-caret-position="308">
+                  <caret line="35" column="76" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
                 </state>
               </provider>
             </entry>
@@ -286,9 +279,9 @@
         <option value="$PROJECT_DIR$/quizApp/views.py" />
         <option value="$PROJECT_DIR$/user/urls.py" />
         <option value="$PROJECT_DIR$/user/templates/registration/logout.html" />
+        <option value="$PROJECT_DIR$/quizApp/templates/quizApp/base.html" />
         <option value="$PROJECT_DIR$/user/views.py" />
         <option value="$PROJECT_DIR$/user/templates/registration/login.html" />
-        <option value="$PROJECT_DIR$/quizApp/templates/quizApp/base.html" />
       </list>
     </option>
   </component>
@@ -574,34 +567,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
-    </task>
-    <task id="LOCAL-00132" summary="Registration">
-      <created>1582047004012</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1582047004012</updated>
-    </task>
-    <task id="LOCAL-00133" summary="Registration">
-      <created>1582047106090</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1582047106091</updated>
-    </task>
-    <task id="LOCAL-00134" summary="Registration">
-      <created>1582047147333</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1582047147333</updated>
-    </task>
-    <task id="LOCAL-00135" summary="Registration">
-      <created>1582047239772</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1582047239772</updated>
     </task>
     <task id="LOCAL-00136" summary="Registration">
       <created>1582047345373</created>
@@ -918,7 +883,35 @@
       <option name="project" value="LOCAL" />
       <updated>1582060072043</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary="New user registration template">
+      <created>1582061352991</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1582061352991</updated>
+    </task>
+    <task id="LOCAL-00182" summary="New user registration template">
+      <created>1582061379243</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1582061379243</updated>
+    </task>
+    <task id="LOCAL-00183" summary="New user registration template">
+      <created>1582061447305</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1582061447305</updated>
+    </task>
+    <task id="LOCAL-00184" summary="New user registration template">
+      <created>1582061561104</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1582061561104</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TodoView">
@@ -932,16 +925,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.10658083" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.10658083" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.31831187" visible="true" weight="0.3385542" />
-      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.68168813" side_tool="true" visible="true" weight="0.3385542" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" sideWeight="0.68168813" side_tool="true" visible="true" weight="0.3385542" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="6" />
@@ -1118,20 +1110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Quiz/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="105" column="1" lean-forward="true" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/templates/registration/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/templates/registration/logout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1153,17 +1131,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/templates/registration/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quizApp/templates/quizApp/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="23" column="84" selection-start-line="23" selection-start-column="84" selection-end-line="23" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="42" column="95" selection-start-line="42" selection-start-column="95" selection-end-line="42" selection-end-column="95" />
+          <folding>
+            <element signature="e#5#69#0" expanded="true" />
+            <marker date="1582061372971" expanded="true" signature="708:713" ph="..." />
+            <marker date="1582061372971" expanded="true" signature="1346:1468" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1177,15 +1160,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/views.py">
+    <entry file="file://$PROJECT_DIR$/Quiz/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#5#69#0" expanded="true" />
-            <marker date="1582061037411" expanded="true" signature="708:713" ph="..." />
-            <marker date="1582061037411" expanded="true" signature="1346:1469" ph="..." />
-          </folding>
+        <state relative-caret-position="930">
+          <caret line="105" column="1" lean-forward="true" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/templates/registration/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="35" column="76" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
         </state>
       </provider>
     </entry>
