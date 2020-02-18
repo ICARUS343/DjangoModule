@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizApp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quizApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizApp/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,21 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
       <workItem from="1581976538331" duration="240000" />
-      <workItem from="1581982469468" duration="2864000" />
-    </task>
-    <task id="LOCAL-00061" summary="Fixed query">
-      <created>1581899123837</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1581899123838</updated>
-    </task>
-    <task id="LOCAL-00062" summary="Fixed query">
-      <created>1581899748349</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1581899748350</updated>
+      <workItem from="1581982469468" duration="3136000" />
     </task>
     <task id="LOCAL-00063" summary="Import">
       <created>1581899778981</created>
@@ -479,7 +465,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581985269605</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="Login required">
+      <created>1581985344742</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1581985344742</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Login required">
+      <created>1581985491003</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1581985491003</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TodoView">
@@ -543,14 +543,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="127" key="#DjangoModules-master/0.0.1920.1040@0.0.1920.1040" timestamp="1581982878261" />
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1581985344268">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1581985490513">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581985344268" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581985348027">
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581985490513" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581985491909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581985348027" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581985491909" />
     <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1581982515365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
