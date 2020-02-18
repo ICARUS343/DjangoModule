@@ -7,10 +7,10 @@ from django.contrib.auth.forms import UserCreationForm
 # Create your views here.
 
 def login(request):
-    return render(request, 'template/login.html')
+    return render(request, 'template/index.html')
 
 
 def register(request):
     form = UserCreationForm()
     context = {'form' : form}
-    return render(request, 'template/register.html', context)
+    return render(request, 'template/index.html', context)
