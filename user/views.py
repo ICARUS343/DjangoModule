@@ -21,7 +21,7 @@ def register(request):
             password = form.cleaned_data['password1']
             user = authenticate(username = username, password = password)
             auth_login(request, user)
-            return redirect('quizApp/')
+            return redirect('/quizApp/')
     else:
         form = UserCreationForm()
     context = {'form' : form}
