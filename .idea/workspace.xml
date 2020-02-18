@@ -63,7 +63,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="2047" />
-          <entry key="py" value="2308" />
+          <entry key="py" value="2313" />
           <entry key="py@DjangoModules-master" value="59" />
           <entry key="txt" value="565" />
         </counts>
@@ -73,7 +73,7 @@
           <entry key="CommandLine" value="59" />
           <entry key="HTML" value="2004" />
           <entry key="PLAIN_TEXT" value="565" />
-          <entry key="Python" value="2308" />
+          <entry key="Python" value="2313" />
           <entry key="SQL" value="43" />
         </counts>
       </usages-collector>
@@ -183,12 +183,12 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/user/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="537">
-                  <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+                <state relative-caret-position="323">
+                  <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
                   <folding>
                     <element signature="e#5#69#0" expanded="true" />
-                    <marker date="1582062364756" expanded="true" signature="708:713" ph="..." />
-                    <marker date="1582062364756" expanded="true" signature="1353:1434" ph="..." />
+                    <marker date="1582063719080" expanded="true" signature="708:713" ph="..." />
+                    <marker date="1582063719080" expanded="true" signature="1341:1422" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -570,20 +570,6 @@
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
     </task>
-    <task id="LOCAL-00144" summary="Registration">
-      <created>1582048829462</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1582048829462</updated>
-    </task>
-    <task id="LOCAL-00145" summary="Back and Register button in register and login.">
-      <created>1582049003736</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1582049003736</updated>
-    </task>
     <task id="LOCAL-00146" summary="Back and Register button in register and login.">
       <created>1582049107840</created>
       <option name="number" value="00146" />
@@ -913,7 +899,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582062307485</updated>
     </task>
-    <option name="localTasksCounter" value="193" />
+    <task id="LOCAL-00193" summary="&#10;s">
+      <created>1582063628910</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1582063628910</updated>
+    </task>
+    <task id="LOCAL-00194" summary="&#10;s">
+      <created>1582063674243</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1582063674244</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="TodoView">
@@ -927,6 +927,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.10658083" />
@@ -1173,12 +1174,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        <state relative-caret-position="323">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
           <folding>
             <element signature="e#5#69#0" expanded="true" />
-            <marker date="1582062364756" expanded="true" signature="708:713" ph="..." />
-            <marker date="1582062364756" expanded="true" signature="1353:1434" ph="..." />
+            <marker date="1582063719080" expanded="true" signature="708:713" ph="..." />
+            <marker date="1582063719080" expanded="true" signature="1341:1422" ph="..." />
           </folding>
         </state>
       </provider>
