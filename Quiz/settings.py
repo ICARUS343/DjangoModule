@@ -125,4 +125,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-LOGIN_REDIRECT_URL = '/quizApp/4/'
+LOGIN_REDIRECT_URL = '/quizApp/'
