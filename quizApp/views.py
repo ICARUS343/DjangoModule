@@ -4,7 +4,7 @@ from django.http import Http404
 from .models import *
 from django.contrib.auth.decorators import login_required
 
-
+@login_required
 def index(request):
     if not request.user.is_authenticated:
         return redirect('%s?next=%s' % (settings.LOGIN_URL, request.path))
@@ -15,7 +15,7 @@ def index(request):
         }
         return render(request, 'quizApp/quiz.html', context)
 
-
+@login_required
 def question(request, quiz):
     if not request.user.is_authenticated:
         return redirect('%s?next=%s' % (settings.LOGIN_URL, request.path))
