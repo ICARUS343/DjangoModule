@@ -63,7 +63,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="2047" />
-          <entry key="py" value="2313" />
+          <entry key="py" value="2317" />
           <entry key="py@DjangoModules-master" value="59" />
           <entry key="txt" value="565" />
         </counts>
@@ -73,7 +73,7 @@
           <entry key="CommandLine" value="59" />
           <entry key="HTML" value="2004" />
           <entry key="PLAIN_TEXT" value="565" />
-          <entry key="Python" value="2313" />
+          <entry key="Python" value="2317" />
           <entry key="SQL" value="43" />
         </counts>
       </usages-collector>
@@ -183,12 +183,12 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/user/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+                <state relative-caret-position="249">
+                  <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
                   <folding>
                     <element signature="e#5#69#0" expanded="true" />
-                    <marker date="1582063719080" expanded="true" signature="708:713" ph="..." />
-                    <marker date="1582063719080" expanded="true" signature="1341:1422" ph="..." />
+                    <marker date="1582063993672" expanded="true" signature="709:714" ph="..." />
+                    <marker date="1582063993672" expanded="true" signature="872:953" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -224,8 +224,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/user/templates/registration/login.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="308">
-                  <caret line="35" column="94" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="35" selection-end-column="94" />
+                <state relative-caret-position="423">
+                  <caret line="35" column="76" lean-forward="true" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
                 </state>
               </provider>
             </entry>
@@ -570,34 +570,6 @@
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
     </task>
-    <task id="LOCAL-00146" summary="Back and Register button in register and login.">
-      <created>1582049107840</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1582049107840</updated>
-    </task>
-    <task id="LOCAL-00147" summary="Back and Register button in register and login.">
-      <created>1582049266872</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1582049266873</updated>
-    </task>
-    <task id="LOCAL-00148" summary="Back and Register button in register and login.">
-      <created>1582049419699</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1582049419699</updated>
-    </task>
-    <task id="LOCAL-00149" summary="Back and Register button in register and login.">
-      <created>1582049725851</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1582049725851</updated>
-    </task>
     <task id="LOCAL-00150" summary="Back and Register button in register and login.">
       <created>1582049759209</created>
       <option name="number" value="00150" />
@@ -913,7 +885,35 @@
       <option name="project" value="LOCAL" />
       <updated>1582063674244</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="&#10;s">
+      <created>1582063722039</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1582063722039</updated>
+    </task>
+    <task id="LOCAL-00196" summary="&#10;s">
+      <created>1582063759539</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1582063759539</updated>
+    </task>
+    <task id="LOCAL-00197" summary="&#10;s">
+      <created>1582063818800</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1582063818800</updated>
+    </task>
+    <task id="LOCAL-00198" summary="&#10;s">
+      <created>1582063899314</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1582063899315</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1134,27 +1134,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/templates/registration/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="35" column="94" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="35" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/templates/registration/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" lean-forward="true" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1172,14 +1155,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/user/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="35" column="76" lean-forward="true" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        <state relative-caret-position="249">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#5#69#0" expanded="true" />
-            <marker date="1582063719080" expanded="true" signature="708:713" ph="..." />
-            <marker date="1582063719080" expanded="true" signature="1341:1422" ph="..." />
+            <marker date="1582063993672" expanded="true" signature="709:714" ph="..." />
+            <marker date="1582063993672" expanded="true" signature="872:953" ph="..." />
           </folding>
         </state>
       </provider>
