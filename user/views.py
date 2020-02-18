@@ -31,8 +31,7 @@ def register(request):
             user = authenticate(username = username, password = password)
             auth_login(request, user)
             return redirect('/quizApp/')
-    else:
-        form = UserCreationForm()
+
     context = {'form' : form}
     return render(request, 'registration/register.html', context)
 
