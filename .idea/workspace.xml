@@ -61,7 +61,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="2047" />
-          <entry key="py" value="2345" />
+          <entry key="py" value="2350" />
           <entry key="py@DjangoModules-master" value="59" />
           <entry key="txt" value="565" />
         </counts>
@@ -71,7 +71,7 @@
           <entry key="CommandLine" value="59" />
           <entry key="HTML" value="2004" />
           <entry key="PLAIN_TEXT" value="565" />
-          <entry key="Python" value="2345" />
+          <entry key="Python" value="2350" />
           <entry key="SQL" value="43" />
         </counts>
       </usages-collector>
@@ -181,13 +181,13 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/user/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="234">
-                  <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+                <state relative-caret-position="372">
+                  <caret line="33" selection-start-line="33" selection-end-line="33" />
                   <folding>
                     <element signature="e#5#69#0" expanded="true" />
-                    <marker date="1582064748209" expanded="true" signature="295:300" ph="..." />
-                    <marker date="1582064748209" expanded="true" signature="699:704" ph="..." />
-                    <marker date="1582064748209" expanded="true" signature="1336:1417" ph="..." />
+                    <marker date="1582066438515" expanded="true" signature="295:300" ph="..." />
+                    <marker date="1582066438515" expanded="true" signature="699:704" ph="..." />
+                    <marker date="1582066438515" expanded="true" signature="1289:1370" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -569,27 +569,6 @@
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
     </task>
-    <task id="LOCAL-00155" summary="User auth">
-      <created>1582050808255</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1582050808255</updated>
-    </task>
-    <task id="LOCAL-00156" summary="User auth">
-      <created>1582050926568</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1582050926568</updated>
-    </task>
-    <task id="LOCAL-00157" summary="User auth">
-      <created>1582051050483</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1582051050483</updated>
-    </task>
     <task id="LOCAL-00158" summary="Duplicate login from import. Chnaged to as auth_login">
       <created>1582051175627</created>
       <option name="number" value="00158" />
@@ -912,7 +891,28 @@
       <option name="project" value="LOCAL" />
       <updated>1582064752633</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="&#10;s">
+      <created>1582066338422</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1582066338423</updated>
+    </task>
+    <task id="LOCAL-00205" summary="&#10;s">
+      <created>1582066368474</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1582066368474</updated>
+    </task>
+    <task id="LOCAL-00206" summary="&#10;s">
+      <created>1582066438848</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1582066438848</updated>
+    </task>
+    <option name="localTasksCounter" value="207" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1172,13 +1172,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="372">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="e#5#69#0" expanded="true" />
-            <marker date="1582064748209" expanded="true" signature="295:300" ph="..." />
-            <marker date="1582064748209" expanded="true" signature="699:704" ph="..." />
-            <marker date="1582064748209" expanded="true" signature="1336:1417" ph="..." />
+            <marker date="1582066438515" expanded="true" signature="295:300" ph="..." />
+            <marker date="1582066438515" expanded="true" signature="699:704" ph="..." />
+            <marker date="1582066438515" expanded="true" signature="1289:1370" ph="..." />
           </folding>
         </state>
       </provider>
