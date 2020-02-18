@@ -18,7 +18,7 @@ def login(request):
                 return redirect('/quizApp/')
             else:
                 return redirect('/accounts/login/')
-        return render(request, 'registration/login.html')
+    return render(request, 'registration/register.html')
 
 
 def register(request):
