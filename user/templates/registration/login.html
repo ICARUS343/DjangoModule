@@ -29,11 +29,13 @@
             </table>
 
 
-            <input type="submit" value="Login"
+            <input type="submit" value="Test"
                    class="btn btn-primary pull-right"/>
             <input type="hidden" name="next" value="{{ next }}"/>
         </form>
-         
+         <div class="card-body">
+            <a class="btn btn-primary" href="{% url 'register' %}" role="button">Register</a>
+        </div>
 
     </div>
 </div>
