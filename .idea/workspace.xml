@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="2047" />
-          <entry key="py" value="2340" />
+          <entry key="py" value="2345" />
           <entry key="py@DjangoModules-master" value="59" />
           <entry key="txt" value="565" />
         </counts>
@@ -73,7 +71,7 @@
           <entry key="CommandLine" value="59" />
           <entry key="HTML" value="2004" />
           <entry key="PLAIN_TEXT" value="565" />
-          <entry key="Python" value="2340" />
+          <entry key="Python" value="2345" />
           <entry key="SQL" value="43" />
         </counts>
       </usages-collector>
@@ -183,13 +181,13 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/user/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+                <state relative-caret-position="234">
+                  <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
                   <folding>
                     <element signature="e#5#69#0" expanded="true" />
-                    <marker date="1582064530724" expanded="true" signature="295:300" ph="..." />
-                    <marker date="1582064530724" expanded="true" signature="699:704" ph="..." />
-                    <marker date="1582064530724" expanded="true" signature="1339:1420" ph="..." />
+                    <marker date="1582064748209" expanded="true" signature="295:300" ph="..." />
+                    <marker date="1582064748209" expanded="true" signature="699:704" ph="..." />
+                    <marker date="1582064748209" expanded="true" signature="1336:1417" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -571,20 +569,6 @@
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
     </task>
-    <task id="LOCAL-00153" summary="Back and Register button in register and login.">
-      <created>1582050044590</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1582050044590</updated>
-    </task>
-    <task id="LOCAL-00154" summary="Back and Register button in register and login.">
-      <created>1582050147760</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1582050147760</updated>
-    </task>
     <task id="LOCAL-00155" summary="User auth">
       <created>1582050808255</created>
       <option name="number" value="00155" />
@@ -914,7 +898,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582064112844</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="&#10;s">
+      <created>1582064598087</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1582064598087</updated>
+    </task>
+    <task id="LOCAL-00203" summary="&#10;s">
+      <created>1582064752633</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1582064752633</updated>
+    </task>
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="TodoView">
@@ -928,7 +926,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.10658083" />
@@ -1175,13 +1172,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="234">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding>
             <element signature="e#5#69#0" expanded="true" />
-            <marker date="1582064530724" expanded="true" signature="295:300" ph="..." />
-            <marker date="1582064530724" expanded="true" signature="699:704" ph="..." />
-            <marker date="1582064530724" expanded="true" signature="1339:1420" ph="..." />
+            <marker date="1582064748209" expanded="true" signature="295:300" ph="..." />
+            <marker date="1582064748209" expanded="true" signature="699:704" ph="..." />
+            <marker date="1582064748209" expanded="true" signature="1336:1417" ph="..." />
           </folding>
         </state>
       </provider>
