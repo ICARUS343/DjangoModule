@@ -3,7 +3,7 @@ from django.http import Http404
 
 from django.contrib.auth.forms import UserCreationForm
 
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login as auth_login
 
 # Create your views here.
 
@@ -20,7 +20,7 @@ def register(request):
             username = form.cleaned_data['username']
             password = form.cleaned_data['password1']
             user = authenticate(username = username, password = password)
-            login(request, user)
+            auth_login(request, user)
             return redirect('index')
     else:
         form = UserCreationForm()
