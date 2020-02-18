@@ -40,3 +40,7 @@ def register(request):
 def logout(request):
     auth_logout(request)
     return render(request, "registration/logout.html")
+
+
+def access_denied(request):
+    return render(request, "registration/no_access.html")
