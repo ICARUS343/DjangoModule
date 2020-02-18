@@ -1,24 +1,10 @@
-{% extends 'registration/index.html' %}
+{%  extends 'registration/index.html'%}
 
 {% block content %}
 
+
 <div id="content-container" class="container p-none">
     <div class="lgn-container col-lg-8">
-        {% if form.errors %}
-                <p class=" label label-danger">
-                    Your username and password didn't match.
-                    Please try again.
-                </p>
-         {% endif %}
-
-         {% if next %}
-            <p class = "label label-danger">
-                You cannot access this page...
-                </pclass>
-
-         {%  endif %}
-
-
         <form id="login-form" method="post"
               action="{% url 'login' %}">
             {% csrf_token %}
@@ -34,8 +20,12 @@
                                type="password" class="form-control"></td>
                 </tr>
             </table>
-
-
+            {% if form.errors %}
+                <p class=" label label-danger">
+                    Your username and password didn't match.
+                    Please try again.
+                </p>
+            {% endif %}
 
             <input type="submit" value="Login"
                    class="btn btn-primary pull-right"/>
@@ -43,7 +33,5 @@
         </form>
     </div>
 </div>
-
-
 
 {% endblock %}
