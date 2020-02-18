@@ -33,8 +33,8 @@ def register(request):
             return redirect('/quizApp/')
     else:
         form = UserCreationForm()
-        context = {'form' : form}
-        return render(request, 'registration/register.html', context)
+    context = {'form' : form}
+    return render(request, 'registration/register.html', context)
 
 
 def logout(request):
