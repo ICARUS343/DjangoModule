@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quizApp/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +37,177 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="801297515">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="14" />
+          <entry key="pip" value="1" />
+          <entry key="py" value="23" />
+          <entry key="save" value="1" />
+          <entry key="sql" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="14" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="24" />
+          <entry key="SQL" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="1150" />
+          <entry key="py" value="1372" />
+          <entry key="py@DjangoModules-master" value="59" />
+          <entry key="txt" value="310" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CommandLine" value="59" />
+          <entry key="HTML" value="1147" />
+          <entry key="PLAIN_TEXT" value="310" />
+          <entry key="Python" value="1372" />
+          <entry key="SQL" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.4223301">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/quizApp/urls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+                  <folding>
+                    <element signature="e#0#28#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Quiz/urls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="375">
+                  <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+                  <folding>
+                    <element signature="e#628#660#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/user/registration/login.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/quizApp/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" lean-forward="true" selection-end-line="2" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/quizApp/models.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/quizApp/templates/quizApp/quiz.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/quizApp/templates/quizApp/question.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/quizApp/templates/quizApp/base.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" selection-start-line="9" selection-end-line="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/user/apps.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/user/urls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+                  <folding>
+                    <element signature="e#0#28#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/user/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+                  <folding>
+                    <element signature="e#0#35#0" expanded="true" />
+                    <marker date="1581997923879" expanded="true" signature="169:174" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -51,12 +227,76 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1Xx8lUptfi5GZ03oghfxl2s1Ip7" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/quizApp/templates/quizApp/index.html" />
+        <option value="$PROJECT_DIR$/quizApp/templates/quizApp/question.html" />
+        <option value="$PROJECT_DIR$/quizApp/templates/quizApp/base.html" />
+        <option value="$PROJECT_DIR$/quizApp/models.py" />
+        <option value="$PROJECT_DIR$/quizApp/templates/quizApp/quiz.html" />
+        <option value="$PROJECT_DIR$/quizApp/templates/quizApp/login.html" />
+        <option value="$PROJECT_DIR$/quizApp/urls.py" />
+        <option value="$PROJECT_DIR$/quizApp/views.py" />
+        <option value="$PROJECT_DIR$/quizApp/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/Quiz/settings.py" />
+        <option value="$PROJECT_DIR$/Quiz/urls.py" />
+        <option value="$PROJECT_DIR$/user/urls.py" />
+        <option value="$PROJECT_DIR$/user/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="726" />
+    <option name="width" value="714" />
+    <option name="height" value="900" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DjangoModules-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoModules-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoModules-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoModules-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Quiz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoModules-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoModules-master" type="462c0819:PsiDirectoryNode" />
+              <item name="quizApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoModules-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoModules-master" type="462c0819:PsiDirectoryNode" />
+              <item name="quizApp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoModules-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoModules-master" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -66,13 +306,148 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/quizApp/templates/registration" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user" />
       <recent name="$PROJECT_DIR$/quizApp/templates/quizApp" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user" />
+      <recent name="$PROJECT_DIR$/quizApp/templates/registration" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/dataSources.local.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/quizApp/urls.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/quizApp/views.py</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/__init__.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/admin.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/apps.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/migrations/__init__.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/models.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/tests.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/user/views.py</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/quizApp/templates/quizApp/index.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="DjangoModules-master" type="Python.DjangoServer" factoryName="Django server">
@@ -83,16 +458,16 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="Quiz.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
       <option name="host" value="http://3.19.123.156/" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="http://http://3.19.123.156/:8000/" />
+      <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
@@ -133,8 +508,69 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
-      <workItem from="1581976538331" duration="240000" />
-      <workItem from="1581982469468" duration="3394000" />
+    </task>
+    <task id="LOCAL-00058" summary="Fixed query">
+      <created>1581891559885</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1581891559885</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Fixed query">
+      <created>1581891940236</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1581891940236</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Fixed query">
+      <created>1581898320148</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1581898320156</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Fixed query">
+      <created>1581899123837</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1581899123838</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Fixed query">
+      <created>1581899748349</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1581899748350</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Import">
+      <created>1581899778981</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1581899778981</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Import">
+      <created>1581899813997</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1581899813997</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Import">
+      <created>1581899847436</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1581899847436</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Import">
+      <created>1581899898228</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1581899898229</updated>
     </task>
     <task id="LOCAL-00067" summary="Import">
       <created>1581900067681</created>
@@ -396,90 +832,27 @@
       <updated>1581959057660</updated>
     </task>
     <task id="LOCAL-00104" summary="Base html path.">
-      <created>1581976756350</created>
+      <created>1581959181448</created>
       <option name="number" value="00104" />
       <option name="presentableId" value="LOCAL-00104" />
       <option name="project" value="LOCAL" />
-      <updated>1581976756351</updated>
+      <updated>1581959181448</updated>
     </task>
-    <task id="LOCAL-00105" summary="Login required">
-      <created>1581983819763</created>
+    <task id="LOCAL-00105" summary="Base html path.">
+      <created>1581959340969</created>
       <option name="number" value="00105" />
       <option name="presentableId" value="LOCAL-00105" />
       <option name="project" value="LOCAL" />
-      <updated>1581983819764</updated>
+      <updated>1581959340969</updated>
     </task>
-    <task id="LOCAL-00106" summary="Login required">
-      <created>1581984533603</created>
+    <task id="LOCAL-00106" summary="Base html path.">
+      <created>1581959464276</created>
       <option name="number" value="00106" />
       <option name="presentableId" value="LOCAL-00106" />
       <option name="project" value="LOCAL" />
-      <updated>1581984533603</updated>
+      <updated>1581959464276</updated>
     </task>
-    <task id="LOCAL-00107" summary="Login required">
-      <created>1581984850213</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1581984850213</updated>
-    </task>
-    <task id="LOCAL-00108" summary="Login required">
-      <created>1581985204589</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1581985204589</updated>
-    </task>
-    <task id="LOCAL-00109" summary="Login required">
-      <created>1581985269605</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1581985269605</updated>
-    </task>
-    <task id="LOCAL-00110" summary="Login required">
-      <created>1581985344742</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1581985344742</updated>
-    </task>
-    <task id="LOCAL-00111" summary="Login required">
-      <created>1581985491003</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1581985491003</updated>
-    </task>
-    <task id="LOCAL-00112" summary="Login required">
-      <created>1581985613289</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1581985613289</updated>
-    </task>
-    <task id="LOCAL-00113" summary="Login required">
-      <created>1581985705564</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1581985705564</updated>
-    </task>
-    <task id="LOCAL-00114" summary="Login required">
-      <created>1581985760462</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1581985760462</updated>
-    </task>
-    <task id="LOCAL-00115" summary="Login required">
-      <created>1581985835614</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1581985835614</updated>
-    </task>
-    <option name="localTasksCounter" value="116" />
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TodoView">
@@ -490,6 +863,62 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.115879826" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.30686694" visible="true" weight="0.3385542" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.69313306" side_tool="true" visible="true" weight="0.3385542" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="5" weight="0.32891566" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="manage.py@DjangoModules-master" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.32891566" />
+      <window_info anchor="right" id="R Graphics" order="0" />
+      <window_info anchor="right" id="R Packages" order="1" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297568" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23891273" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.37228915" />
+      <window_info anchor="bottom" id="Database Changes" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.21686748" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="5" weight="0.32891566" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="manage.py@DjangoModules-master" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.32891566" />
+      <window_info anchor="right" id="R Graphics" order="0" />
+      <window_info anchor="right" id="R Packages" order="1" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297568" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -510,12 +939,28 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="COLUMN_ORDER" />
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
             </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bootstrap" />
@@ -535,25 +980,130 @@
     <MESSAGE value="Auth urls added." />
     <MESSAGE value="Login Html" />
     <MESSAGE value="Base html path." />
-    <MESSAGE value="Login required" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login required" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base html path." />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="679" y="127" key="#DjangoModules-master" timestamp="1581982878261">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="679" y="127" key="#DjangoModules-master/0.0.1920.1040@0.0.1920.1040" timestamp="1581982878261" />
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1581985835094">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581985835094" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581985836625">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581985836625" />
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1581982515365">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581982515365" />
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/quizApp/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/bin/pip" />
+    <entry file="file://$PROJECT_DIR$/quizApp/templates/quizApp/base.html.save" />
+    <entry file="file://$PROJECT_DIR$/quizApp/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quizApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quizApp/templates/quizApp/quiz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quizApp/templates/quizApp/question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quizApp/templates/quizApp/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quizApp/templates/quizApp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quizApp/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Quiz/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Quiz/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quizApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quizApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1581997923879" expanded="true" signature="169:174" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
