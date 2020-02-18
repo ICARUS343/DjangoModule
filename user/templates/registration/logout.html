@@ -2,10 +2,13 @@
 
 {% block content %}
 
+    <div class="card-body">
+            <a class="btn btn-primary" href="{% url 'login' %}" role="button">Login</a>
+        </div>
+    <div class="card-body">
+            <a class="btn btn-primary" href="{% url 'login' %}" role="button">Register</a>
+        </div>
 
-    <div class="card">
-        <li class="list-group-item">Please Login or register to continue!!!</li>
-    </div>
 
 
 {% endblock %}
