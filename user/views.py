@@ -8,7 +8,18 @@ from django.contrib.auth import authenticate, login as auth_login
 
 
 def login(request):
-    return render(request, 'registration/login.html')
+    if request.method == 'POST':
+        username = request.POST['username']
+        password = request.POST['password']
+        user = authenticate(username=username, password=password)
+        if user is not None:
+            if user.is_active:
+                auth_login(request, user)
+                return redirect('/quizApp/')
+            else:
+                return redirect('/accounts/login/')
+    else:
+        return render(request, 'registration/register.html')
 
 
 def register(request):
