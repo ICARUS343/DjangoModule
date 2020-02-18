@@ -63,7 +63,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="2047" />
-          <entry key="py" value="2317" />
+          <entry key="py" value="2340" />
           <entry key="py@DjangoModules-master" value="59" />
           <entry key="txt" value="565" />
         </counts>
@@ -73,7 +73,7 @@
           <entry key="CommandLine" value="59" />
           <entry key="HTML" value="2004" />
           <entry key="PLAIN_TEXT" value="565" />
-          <entry key="Python" value="2317" />
+          <entry key="Python" value="2340" />
           <entry key="SQL" value="43" />
         </counts>
       </usages-collector>
@@ -183,12 +183,13 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/user/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="249">
-                  <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+                <state relative-caret-position="34">
+                  <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
                   <folding>
                     <element signature="e#5#69#0" expanded="true" />
-                    <marker date="1582063993672" expanded="true" signature="709:714" ph="..." />
-                    <marker date="1582063993672" expanded="true" signature="872:953" ph="..." />
+                    <marker date="1582064530724" expanded="true" signature="295:300" ph="..." />
+                    <marker date="1582064530724" expanded="true" signature="699:704" ph="..." />
+                    <marker date="1582064530724" expanded="true" signature="1339:1420" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -570,27 +571,6 @@
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
     </task>
-    <task id="LOCAL-00150" summary="Back and Register button in register and login.">
-      <created>1582049759209</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1582049759209</updated>
-    </task>
-    <task id="LOCAL-00151" summary="Back and Register button in register and login.">
-      <created>1582049797059</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1582049797059</updated>
-    </task>
-    <task id="LOCAL-00152" summary="Back and Register button in register and login.">
-      <created>1582049903213</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1582049903214</updated>
-    </task>
     <task id="LOCAL-00153" summary="Back and Register button in register and login.">
       <created>1582050044590</created>
       <option name="number" value="00153" />
@@ -913,7 +893,28 @@
       <option name="project" value="LOCAL" />
       <updated>1582063899315</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="&#10;s">
+      <created>1582063996231</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1582063996231</updated>
+    </task>
+    <task id="LOCAL-00200" summary="&#10;s">
+      <created>1582064057006</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1582064057006</updated>
+    </task>
+    <task id="LOCAL-00201" summary="&#10;s">
+      <created>1582064112844</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1582064112844</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1174,12 +1175,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="34">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
             <element signature="e#5#69#0" expanded="true" />
-            <marker date="1582063993672" expanded="true" signature="709:714" ph="..." />
-            <marker date="1582063993672" expanded="true" signature="872:953" ph="..." />
+            <marker date="1582064530724" expanded="true" signature="295:300" ph="..." />
+            <marker date="1582064530724" expanded="true" signature="699:704" ph="..." />
+            <marker date="1582064530724" expanded="true" signature="1339:1420" ph="..." />
           </folding>
         </state>
       </provider>
