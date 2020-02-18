@@ -16,7 +16,7 @@ def index(request):
 
 
 @login_required(login_url='/accounts/login/')
-@user_passes_test(lambda u: u.groups.filter(name='quiz_makers').count() == 0, u.groups.filter(name='quiz_takers').count() == 0 , login_url='/accounts/login/')
+@user_passes_test(lambda u: u.groups.filter(name='quiz_makers' or 'quiz_takers').count() == 0, login_url='/accounts/login/')
 def question(request, quiz):
     try:
         latest_question_list = Question.objects.filter(quiz_foreign_key = quiz)
