@@ -1,20 +1,24 @@
-{% extends "registration/index.html" %}
+{%  extends 'registration/index.html'%}
+
 {% block content %}
-  <div class="container">
-    <div class="jumbotron">
-      {% if registered %}
-        <h1>Thank you for registering!</h1>
-      {% else %}
-        <h1>Register Here</h1>
-        <h3>Just fill out the form.</h3>
-<form enctype="multipart/form-data" method="POST">
-          {% csrf_token %}
-          {{ user_form.as_p }}
-          {{ profile_form.as_p }}
-          <input type="submit" name="" value="Register">
+
+
+<div id="content-container" class="container p-none">
+    <div class="lgn-container col-lg-8">
+        <form id="register-form" method="post"
+              action="{% url 'register' %}">
+            {% csrf_token %}
+            {% if form.errors %}
+                <p class=" label label-danger">
+                    There are errors in the form.
+                    Please try again.
+                </p>
+            {% endif %}
+
+            <input type="submit" value="Register"
+                   class="btn btn-primary pull-right"/>
         </form>
-        
-      {% endif %}
     </div>
-  </div>
+</div>
+
 {% endblock %}
