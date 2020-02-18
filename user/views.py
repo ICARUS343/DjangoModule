@@ -40,4 +40,4 @@ def register(request):
 
 def logout(request):
     auth_logout(request)
-    return render(request, "registration/logout.html",context_instance=RequestContext(request))
+    return render(request, "registration/logout.html")
