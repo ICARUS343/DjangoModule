@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Quiz/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quiz/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizApp/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +47,7 @@
         <counts>
           <entry key="html" value="14" />
           <entry key="pip" value="1" />
-          <entry key="py" value="23" />
+          <entry key="py" value="24" />
           <entry key="save" value="1" />
           <entry key="sql" value="1" />
         </counts>
@@ -61,14 +56,14 @@
         <counts>
           <entry key="HTML" value="14" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="24" />
+          <entry key="Python" value="25" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1150" />
-          <entry key="py" value="1372" />
+          <entry key="py" value="1376" />
           <entry key="py@DjangoModules-master" value="59" />
           <entry key="txt" value="310" />
         </counts>
@@ -78,7 +73,7 @@
           <entry key="CommandLine" value="59" />
           <entry key="HTML" value="1147" />
           <entry key="PLAIN_TEXT" value="310" />
-          <entry key="Python" value="1372" />
+          <entry key="Python" value="1376" />
           <entry key="SQL" value="3" />
         </counts>
       </usages-collector>
@@ -191,7 +186,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/user/views.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="105">
@@ -200,6 +195,15 @@
                     <element signature="e#0#35#0" expanded="true" />
                     <marker date="1581997923879" expanded="true" signature="169:174" ph="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Quiz/settings.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="164">
+                  <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -239,10 +243,10 @@
         <option value="$PROJECT_DIR$/quizApp/urls.py" />
         <option value="$PROJECT_DIR$/quizApp/views.py" />
         <option value="$PROJECT_DIR$/quizApp/templates/registration/login.html" />
-        <option value="$PROJECT_DIR$/Quiz/settings.py" />
         <option value="$PROJECT_DIR$/Quiz/urls.py" />
         <option value="$PROJECT_DIR$/user/urls.py" />
         <option value="$PROJECT_DIR$/user/views.py" />
+        <option value="$PROJECT_DIR$/Quiz/settings.py" />
       </list>
     </option>
   </component>
@@ -508,13 +512,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Fixed query">
-      <created>1581891559885</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1581891559885</updated>
     </task>
     <task id="LOCAL-00059" summary="Fixed query">
       <created>1581891940236</created>
@@ -852,7 +849,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581959464276</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="Base html path.">
+      <created>1581997936320</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1581997936321</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1043,13 +1047,6 @@
     <entry file="file://$PROJECT_DIR$/quizApp/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Quiz/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1102,6 +1099,13 @@
             <element signature="e#0#35#0" expanded="true" />
             <marker date="1581997923879" expanded="true" signature="169:174" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Quiz/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
         </state>
       </provider>
     </entry>
