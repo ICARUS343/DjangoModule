@@ -26,13 +26,14 @@
                                    type="password" class="form-control"></td>
                     </tr>
                     <tr>
-                        <td><input type="submit" value="Login"
-                                   class="btn btn-primary pull-right"/>
+                        <td>
+                            <input type="submit" value="Login"
+                                   class="btn btn-primary pull-right"/></td>
                         <td><a class="btn btn-primary" href="{% url 'register' %}" role="button">Register</a></td>
                     </tr>
                 </table>
 
-<input type="hidden" name="next" value="{{ next }}"/></td>
+<input type="hidden" name="next" value="{{ next }}"/>
             </form>
 
         </div>
