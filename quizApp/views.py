@@ -5,16 +5,19 @@ from .models import *
 from django.contrib.auth.decorators import login_required
 
 
-@login_required(login_url='/accounts/login/')
 def index(request):
+    if not request.user.is_authenticated:
+        return redirect('%s?next=%s' % (settings.LOGIN_URL, request.path))
     latest_quiz_list = Quiz.objects.order_by('id')[:5]
     context = {
         'latest_quiz_list': latest_quiz_list,
     }
     return render(request, 'quizApp/quiz.html', context)
 
-@login_required(login_url='/accounts/login/')
+
 def question(request, quiz):
+    if not request.user.is_authenticated:
+        return redirect('%s?next=%s' % (settings.LOGIN_URL, request.path))
     try:
         latest_question_list = Question.objects.filter(quiz_foreign_key = quiz)
         context = {'latest_question_list': latest_question_list}
