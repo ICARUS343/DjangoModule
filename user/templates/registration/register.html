@@ -1,28 +1,35 @@
-{%  extends 'registration/index.html'%}
+{% extends 'registration/index.html' %}
 
 {% block content %}
 
 
-<div id="content-container" class="container p-none">
-    <div class="lgn-container col-lg-8">
-        <form id="register-form" method="post"
-              action="{% url 'register' %}">
-            {% csrf_token %}
-            {% if form.errors %}
-                <p class=" label label-danger">
-                    There are errors in the form.
-                    Please try again.
-                </p>
-            {% endif %}
-            {{ form }}
-            <input type="submit" value="Register"
-                   class="btn btn-primary pull-right"/>
-        </form>
-        <div class="card-body">
-            <a class="btn btn-primary" href="{% url 'login' %}" role="button">Back</a>
-        </div>
+    <div id="content-container" class="container p-none">
+        <div class="lgn-container col-lg-8">
+            <form id="register-form" method="post"
+                  action="{% url 'register' %}">
+                {% csrf_token %}
+                {% if form.errors %}
+                    <p class=" label label-danger">
+                        There are errors in the form.
+                        Please try again.
+                    </p>
+                {% endif %}
+                {{ form }}
 
+                <table class="table">
+                    <tr>
+                        <td><input type="submit" value="Register"
+                                   class="btn btn-primary pull-right"/></td>
+                        <td><a class="btn btn-primary" href="{% url 'login' %}" role="button">Back</a>
+                    </tr>
+                </table>
+
+            </form>
+            <div class="card-body">
+
+            </div>
+
+        </div>
     </div>
-</div>
 
 {% endblock %}
