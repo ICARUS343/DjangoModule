@@ -5,10 +5,18 @@ from django.contrib.auth.forms import UserCreationForm
 
 from django.contrib.auth import authenticate, login as auth_login
 
-# Create your views here.
-
 def login(request):
-    return render(request, 'registration/login.html')
+    username = request.POST['username']
+    password = request.POST['password']
+    user = authenticate(username=username, password=password)
+    if user is not None:
+        if user.is_active:
+            login(request, user)
+            return redirect('/quizApp/')
+        else:
+            return redirect('/accounts/login/')
+    else:
+        return render(request, 'registration/login.html')
 
 
 def register(request):
