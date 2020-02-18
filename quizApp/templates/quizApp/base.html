@@ -22,7 +22,6 @@
             </div>
 
 
-
 </div>
 
 {% block content %}
@@ -30,10 +29,7 @@
 {% endblock %}
 
 <div class="card-body">
-
-    <input type="submit" value="LOGOUT"
-           class="btn btn-primary pull-left"/>
-    <input type="hidden" name="next" value="{% url 'logout' %} }}"/>
+    <a class="btn btn-primary" href="{% url 'logout' %}" role="button">LOGOUT</a>
 </div>
 
 <!-- Optional JavaScript -->
