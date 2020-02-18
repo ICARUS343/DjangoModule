@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,14 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
       <workItem from="1581976538331" duration="240000" />
-      <workItem from="1581982469468" duration="1824000" />
-    </task>
-    <task id="LOCAL-00057" summary="Fixed query">
-      <created>1581891404561</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1581891404561</updated>
+      <workItem from="1581982469468" duration="2346000" />
     </task>
     <task id="LOCAL-00058" summary="Fixed query">
       <created>1581891559885</created>
@@ -478,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581983819764</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="Login required">
+      <created>1581984533603</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1581984533603</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TodoView">
@@ -542,14 +543,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="127" key="#DjangoModules-master/0.0.1920.1040@0.0.1920.1040" timestamp="1581982878261" />
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1581983819219">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1581984533126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581983819219" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581983821085">
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581984533126" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581984535790">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581983821085" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581984535790" />
     <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1581982515365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
