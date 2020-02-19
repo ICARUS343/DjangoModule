@@ -1,5 +1,5 @@
 from django.shortcuts import get_object_or_404, render, redirect
-from django.http import Http404
+from django.contrib.auth.models import Group
 
 from django.contrib.auth import logout as auth_logout
 
@@ -24,6 +24,15 @@ def login(request):
 def register(request):
     if request.method == 'POST':
         form = NameForm(request.POST)
+        if form.is_valid():
+            user = form.save()
+            group = Group.objects.get(name=user.cleaned_data['user_group'])
+            user.groups.add(group)
+            return redirect('login')
+
+
+
+
         if form.is_valid():
             form.save()
             username = form.cleaned_data['username']
