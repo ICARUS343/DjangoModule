@@ -3,7 +3,7 @@ from django.http import Http404
 
 from django.contrib.auth import logout as auth_logout
 
-from .forms import SignUpForm
+from .forms import NameForm
 from django.contrib.auth import authenticate, login as auth_login
 
 
@@ -23,7 +23,7 @@ def login(request):
 
 def register(request):
     if request.method == 'POST':
-        form = SignUpForm(request.POST)
+        form = NameForm(request.POST)
         if form.is_valid():
             form.save()
             username = form.cleaned_data['username']
@@ -32,7 +32,7 @@ def register(request):
             auth_login(request, user)
             return redirect('/quizApp/')
     else:
-        form = SignUpForm()
+        form = NameForm(request.POST)
     context = {'form' : form}
     return render(request, 'registration/register.html', context)
 
