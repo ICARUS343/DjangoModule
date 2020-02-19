@@ -13,10 +13,9 @@
         <div class="list-group">
             <ul class="list-group">
                 {% for User in users_list %}
-                    <li><a>{% User.username %}</a></li>
                     <table>
                         <li class = "list-group-item">
-                        <li class="list-group-item">Test</li>
+                        <li class="list-group-item">{{ User.username }}</li>
                         <button class="button left">
                             <a href="{% url 'quiz_admin' %}"
 
