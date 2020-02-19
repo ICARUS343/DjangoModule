@@ -8,9 +8,9 @@ from django.contrib.auth.models import Group
 
 @login_required(login_url='/accounts/login/')
 def index(request):
-    users_in_admin = Group.objects.get(name="quiz_admins").user_set.all()
-    users_in_taker = Group.objects.get(name="quiz_takers").user_set.all()
-    users_in_maker = Group.objects.get(name="quiz_makers").user_set.all()
+    users_in_admin = Group.objects.get(name='quiz_admins').user_set.all()
+    users_in_taker = Group.objects.get(name='quiz_takers').user_set.all()
+    users_in_maker = Group.objects.get(name='quiz_makers').user_set.all()
     if request.user in users_in_admin:
         return redirect('quiz_admin/')
     if request.user in users_in_taker:
