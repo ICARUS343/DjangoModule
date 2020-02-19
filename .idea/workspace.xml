@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,7 +63,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="2209" />
-          <entry key="py" value="3363" />
+          <entry key="py" value="3377" />
           <entry key="py@DjangoModules-master" value="59" />
           <entry key="txt" value="572" />
         </counts>
@@ -74,7 +73,7 @@
           <entry key="CommandLine" value="59" />
           <entry key="HTML" value="2166" />
           <entry key="PLAIN_TEXT" value="572" />
-          <entry key="Python" value="3363" />
+          <entry key="Python" value="3377" />
           <entry key="SQL" value="43" />
         </counts>
       </usages-collector>
@@ -202,14 +201,14 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/user/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+                <state relative-caret-position="129">
+                  <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
                   <folding>
                     <element signature="e#5#69#0" expanded="true" />
-                    <marker date="1582085642756" expanded="true" signature="331:335" ph="..." />
-                    <marker date="1582085642756" expanded="true" signature="737:742" ph="..." />
-                    <marker date="1582085642756" expanded="true" signature="1521:1602" ph="..." />
-                    <marker date="1582085642756" expanded="true" signature="1631:1636" ph="..." />
+                    <marker date="1582086056375" expanded="true" signature="331:335" ph="..." />
+                    <marker date="1582086056375" expanded="true" signature="737:742" ph="..." />
+                    <marker date="1582086056375" expanded="true" signature="1496:1577" ph="..." />
+                    <marker date="1582086056375" expanded="true" signature="1606:1611" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -603,13 +602,6 @@
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
     </task>
-    <task id="LOCAL-00210" summary="Access">
-      <created>1582067350307</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1582067350307</updated>
-    </task>
     <task id="LOCAL-00211" summary="Access">
       <created>1582067734428</created>
       <option name="number" value="00211" />
@@ -946,7 +938,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582085366589</updated>
     </task>
-    <option name="localTasksCounter" value="259" />
+    <task id="LOCAL-00259" summary="Access">
+      <created>1582085645223</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1582085645223</updated>
+    </task>
+    <option name="localTasksCounter" value="260" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1255,14 +1254,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        <state relative-caret-position="129">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
           <folding>
             <element signature="e#5#69#0" expanded="true" />
-            <marker date="1582085642756" expanded="true" signature="331:335" ph="..." />
-            <marker date="1582085642756" expanded="true" signature="737:742" ph="..." />
-            <marker date="1582085642756" expanded="true" signature="1521:1602" ph="..." />
-            <marker date="1582085642756" expanded="true" signature="1631:1636" ph="..." />
+            <marker date="1582086056375" expanded="true" signature="331:335" ph="..." />
+            <marker date="1582086056375" expanded="true" signature="737:742" ph="..." />
+            <marker date="1582086056375" expanded="true" signature="1496:1577" ph="..." />
+            <marker date="1582086056375" expanded="true" signature="1606:1611" ph="..." />
           </folding>
         </state>
       </provider>

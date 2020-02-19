@@ -33,7 +33,7 @@ def register(request):
 
             assignment = form.cleaned_data.get('user_group')
 
-            g = Group.objects.get(name='quiz_maker')
+            g = Group.objects.get(name=assignment)
             g.user_set.add(user)
             user.groups.add(g)
             auth_login(request, user)

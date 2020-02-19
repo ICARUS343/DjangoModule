@@ -5,9 +5,9 @@ from django.contrib.auth.models import User
 
 class SignUpForm(UserCreationForm):
     user_group1 = (
-        ("quiz_admin", "quiz_admin"),
-        ("quiz_maker", "quiz_maker"),
-        ("quiz_taker", "quiz_taker"),
+        ("quiz_admin", "quiz_admins"),
+        ("quiz_maker", "quiz_makers"),
+        ("quiz_taker", "quiz_takers"),
     )
     user_group = forms.ChoiceField(choices=user_group1)
 
