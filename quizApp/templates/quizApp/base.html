@@ -2,11 +2,15 @@
 <html lang="en">
 <head>
     <style>
-    list-group{
-    max-height: 300px;
-    margin-bottom: 10px;
-    overflow:scroll;
-    -webkit-overflow-scrolling: touch;
+    .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
 }
 </style>
     <!-- Required meta tags -->
@@ -37,7 +41,7 @@
 {% endblock %}
 
 <div class="card-body">
-    <a class="btn btn-primary" href="{% url 'logout' %}" role="button">LOGOUT</a>
+    <a class="btn btn-primary footer" href="{% url 'logout' %}" role="button">LOGOUT</a>
 </div>
 
 <!-- Optional JavaScript -->
