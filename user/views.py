@@ -30,10 +30,10 @@ def register(request):
             raw_password = form.cleaned_data.get('password1')
             user = authenticate(username=username1, password=raw_password)
             login(request, user)
-            return redirect('home')
+            return redirect('/quizApp/')
     else:
         form = SignUpForm()
-    return render(request, 'signup.html', {'form': form})
+    return render(request, 'registration/registration.html', {'form': form})
 
 
 
