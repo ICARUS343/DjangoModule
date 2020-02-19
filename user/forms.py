@@ -2,7 +2,6 @@ from django import forms
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 class GeeksForm(forms.Form):
-    geeks_field = forms.ChoiceField(choices = GEEKS_CHOICES)
 
 class SignUpForm(UserCreationForm):
     user_group1 = (
