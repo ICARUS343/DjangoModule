@@ -4,7 +4,7 @@ from django.http import Http404
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import logout as auth_logout
 
-from mysite.core.forms import SignUpForm
+from user.core.forms import SignUpForm
 from django.contrib.auth import authenticate, login as auth_login
 
 
