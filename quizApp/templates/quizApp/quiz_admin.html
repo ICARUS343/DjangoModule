@@ -1,39 +1,35 @@
+<p><h1>Quiz Admin</h1></p>
+<div class="card mx-auto">
+    <div class="card-body">
+        <li class="list-group-item"><a href="{% url 'logout' %}"
+                                       class="list-group-item list-group-item-action active">
+            Logout</a>
+        </li>
 
+        <div class="list-group">
+            <ul class="list-group">
+                {% for User in users_list %}
+                    <table class="table">
+                        <tr>
+                            <td>
+                                <li class="list-group-item">{% User %}</li>
+                                >
+                            </td>
+                            <td>
+                                <li class="list-group-item active">
+                                    <a href="{% url 'quiz_admin' %}"
+                                       class="list-group-item list-group-item-action disabled"> Remove
+                                    </a>
+                                </li>
 
-{% extends 'quizApp/base.html' %}
-
-{% block content %}
-    <p><h1>Quiz Admin</h1></p>
-    <div class="card mx-auto">
-        <div class="card-body">
-            <li class="list-group-item"><a href="{% url 'logout' %}"
-                                           class="list-group-item list-group-item-action active">
-                Logout</a>
-            </li>
-
-            <div class="list-group">
-                <ul class="list-group">
-                    {% for User in users %}
-                        <table class="table">
-                            <tr>
-                                <td>
-                                    <li class="list-group-item">{% users %}</li>
-                                    >
-                                </td>
-                                <td>
-                                    <li class="list-group-item active">
-                                        <a href="{% url 'quiz_admin' %}" class="list-group-item list-group-item-action disabled"> Remove
-                                        </a>
-                                    </li>
-
-                                </td>
-                            </tr>
-                        </table>
-                    {% empty %}
-                        <li class="list-group-item">No users on this Quiz app yet.</li>
-                    {% endfor %}
-                </ul>
-            </div>
+                            </td>
+                        </tr>
+                    </table>
+                {% empty %}
+                    <li class="list-group-item">No users on this Quiz app yet.</li>
+                {% endfor %}
+            </ul>
         </div>
     </div>
-{% endblock %}
+</div>
+
