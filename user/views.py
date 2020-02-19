@@ -26,10 +26,10 @@ def register(request):
     if request.method == 'POST':
         form = SignUpForm(request.POST)
         if form.is_valid():
-            user = form.save()
+            form.save()
             username1 = form.cleaned_data.get('username')
             raw_password = form.cleaned_data.get('password1')
-            authenticate(username=username1, password=raw_password)
+            user=authenticate(username=username1, password=raw_password)
 
             assignment = form.cleaned_data.get('user_group')
 
