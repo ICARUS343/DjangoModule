@@ -1,11 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Quiz Admin</title>
 
-</head>
-<body>
+
+{% extends 'quizApp/base.html' %}
+
+{% block content %}
     <p><h1>Quiz Admin</h1></p>
-</body>
-</html>
+    <div class="card mx-auto">
+        <div class="card-body">
+            <li class="list-group-item"><a href="{% url 'accounts/logout' %}"
+                                           class="list-group-item list-group-item-action active">
+                Logout</a>
+            </li>
+
+            <div class="list-group">
+                <ul class="list-group">
+                    {% for u in users %}
+                        <table class="table">
+                            <tr>
+                                <td>
+                                    <li class="list-group-item">u.id</li>
+                                    >
+                                </td>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a href="#" class="list-group-item list-group-item-action disabled"> u.id
+                                        </a>
+                                    </li>
+
+                                </td>
+                            </tr>
+                        </table>
+
+                    {% empty %}
+                        <li class="list-group-item">No users on this Quiz app yet.</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+{% endblock %}

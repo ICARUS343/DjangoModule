@@ -3,7 +3,8 @@ from django.http import Http404
 
 from .models import Quiz, Question
 from django.contrib.auth.decorators import login_required, user_passes_test
-from django.contrib.auth.models import Group
+from django.contrib.auth.models import Group, User
+
 
 
 @login_required(login_url='/accounts/login/')
@@ -42,5 +43,6 @@ def quiz_taker(request):
 
 @login_required(login_url='/accounts/login/')
 def quiz_admin(request):
-    return render(request, 'quizApp/quiz_admin.html')
+    users = User.objects.all()
+    return render(request, 'quizApp/quiz_admin.html', {'users': users,})
 
