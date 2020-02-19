@@ -3,7 +3,7 @@ from django.contrib.auth.models import Group
 
 from django.contrib.auth import logout as auth_logout
 
-from .forms import NameForm
+from .forms import SignUpForm
 from django.contrib.auth import authenticate, login as auth_login
 
 
@@ -23,25 +23,18 @@ def login(request):
 
 def register(request):
     if request.method == 'POST':
-        form = NameForm(request.POST)
-        if form.is_valid():
-            user = form.save()
-            group = Group.objects.get(name=user.cleaned_data['user_group'])
-            user.groups.add(group)
-            return redirect('login')
-
-
-
-
+        form = SignUpForm(request.POST)
         if form.is_valid():
             form.save()
             username = form.cleaned_data['username']
             password = form.cleaned_data['password1']
-            user = authenticate(username = username, password = password)
+            user = authenticate(username=username, password=password)
+            group = Group.objects.get(name=user.cleaned_data['user_group'])
+            user.groups.add(group)
             auth_login(request, user)
             return redirect('/quizApp/')
     else:
-        form = NameForm(request.POST)
+        form = SignUpForm(request.POST)
     context = {'form' : form}
     return render(request, 'registration/register.html', context)
 
