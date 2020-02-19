@@ -1,5 +1,6 @@
 from django.shortcuts import get_object_or_404, render, redirect
 from django.contrib.auth.models import Group
+from django.shortcuts import get_object_or_404
 
 from django.contrib.auth import logout as auth_logout
 
@@ -29,8 +30,11 @@ def register(request):
             username1 = form.cleaned_data.get('username')
             raw_password = form.cleaned_data.get('password1')
             authenticate(username=username1, password=raw_password)
+
             assignment = form.cleaned_data.get('user_group')
-            group = Group.objects.get(name=assignment)
+
+
+            group = get_object_or_404(Group.objects.get(name=assignment))
             user.groups.add(group)
             auth_login(request, user)
             return redirect('/quizApp/')
