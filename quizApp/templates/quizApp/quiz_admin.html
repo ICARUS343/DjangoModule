@@ -13,11 +13,11 @@
 
             <div class="list-group">
                 <ul class="list-group">
-                    {% for u in users %}
+                    {% for User in users %}
                         <table class="table">
                             <tr>
                                 <td>
-                                    <li class="list-group-item">{% u.get_full_name() %}</li>
+                                    <li class="list-group-item">{% User.get_full_name() %}</li>
                                     >
                                 </td>
                                 <td>
