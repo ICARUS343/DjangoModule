@@ -20,8 +20,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('django.contrib.auth.urls')),
     path('quizApp/', include('quizApp.urls')),
-    path('quiz_admin/', include('quizApp.urls')),
-    path('quiz_taker/', include('quizApp.urls')),
+    path('/quiz_admin/', include('quizApp.urls')),
+    path('/quiz_taker/', include('quizApp.urls')),
     path('', include('user.urls')),
 
 ]
