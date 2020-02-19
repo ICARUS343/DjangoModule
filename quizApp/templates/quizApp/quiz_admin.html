@@ -10,7 +10,7 @@
                 {% for User in users_list %}
                     <table>
                         <li class = "list-group-item">
-                        <li class="list-group-item">{{ User.username }} <br> {{ User.user_group }}</li>
+                        <li class="list-group-item">{{ User.username }}  {{ User.user_group }}</li>
                         <button class="button left">
                             <a href="{% url 'quiz_admin' %}"
 
