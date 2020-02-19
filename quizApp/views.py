@@ -26,10 +26,12 @@ def question(request, quiz):
 
     return render(request, 'quizApp/question.html', context)
 
+
 @login_required(login_url='/accounts/login/')
 @user_passes_test(lambda u: u.groups.filter(name='quiz_takers').count() == 1, login_url='/quiz_admin')
 def quiz_taker(request):
     return render(request, "quizApp/quiz_taker.html")
+
 
 @login_required(login_url='/accounts/login/')
 @user_passes_test(lambda u: u.groups.filter(name='quiz_admins').count() == 1, login_url='/quiz_maker')
