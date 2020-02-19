@@ -14,6 +14,6 @@ urlpatterns = [
     #path('<int:quiz_id>/answer/', views.answer_detail, name='answer_detail'),
 
     path('quiz_taker/', views.quiz_taker, name = 'quiz_taker'),
-    path('quiz_admin/', views.quiz_taker, name='quiz_admin')
+    path('quiz_admin/', views.quiz_admin, name='quiz_admin')
 
 ]
