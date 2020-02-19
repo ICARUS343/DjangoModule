@@ -30,7 +30,7 @@ def register(request):
             raw_password = form.cleaned_data.get('password1')
             user = authenticate(username=username1, password=raw_password)
             assignment = form.cleaned_data.get('user_group')
-            group = Group.objects.get(name= assignment)
+            group = Group.objects.get(name= 'quiz_maker')
             user.groups.add(group)
             auth_login(request, user)
             return redirect('/quizApp/')
