@@ -29,7 +29,7 @@ def register(request):
             username1 = form.cleaned_data.get('username')
             raw_password = form.cleaned_data.get('password1')
             user = authenticate(username=username1, password=raw_password)
-            login(request, user)
+            auth_login(request, user)
             return redirect('/quizApp/')
     else:
         form = SignUpForm()
