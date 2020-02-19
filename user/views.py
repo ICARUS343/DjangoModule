@@ -43,7 +43,6 @@ def register(request):
     return render(request, 'registration/register.html', {'form': form})
 
 
-
 def logout(request):
     auth_logout(request)
     return render(request, "registration/logout.html")
@@ -51,3 +50,4 @@ def logout(request):
 
 def access_denied(request):
     return render(request, "registration/no_access.html")
+

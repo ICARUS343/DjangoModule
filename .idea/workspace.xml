@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/quizApp/templates/quizApp/quiz_admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizApp/templates/quizApp/quiz_taker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quizApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizApp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +49,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="19" />
+          <entry key="html" value="21" />
           <entry key="pip" value="1" />
           <entry key="py" value="27" />
           <entry key="save" value="1" />
@@ -54,7 +58,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="19" />
+          <entry key="HTML" value="21" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="28" />
           <entry key="SQL" value="1" />
@@ -62,8 +66,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2209" />
-          <entry key="py" value="3377" />
+          <entry key="html" value="2267" />
+          <entry key="py" value="3604" />
           <entry key="py@DjangoModules-master" value="59" />
           <entry key="txt" value="572" />
         </counts>
@@ -71,9 +75,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CommandLine" value="59" />
-          <entry key="HTML" value="2166" />
+          <entry key="HTML" value="2224" />
           <entry key="PLAIN_TEXT" value="572" />
-          <entry key="Python" value="3377" />
+          <entry key="Python" value="3604" />
           <entry key="SQL" value="43" />
         </counts>
       </usages-collector>
@@ -95,23 +99,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Quiz/urls.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-end-line="21" />
-                  <folding>
-                    <element signature="e#628#660#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/quizApp/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="77" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+                <state relative-caret-position="427">
+                  <caret line="34" column="99" selection-start-line="34" selection-start-column="99" selection-end-line="34" selection-end-column="99" />
                   <folding>
                     <element signature="e#0#54#0" expanded="true" />
                   </folding>
@@ -119,14 +111,32 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/quizApp/templates/quizApp/quiz_admin.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/quizApp/templates/quizApp/quiz_taker.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/user/forms.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+                <state relative-caret-position="135">
+                  <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
                   <folding>
                     <element signature="e#0#24#0" expanded="true" />
-                    <marker date="1582084085433" expanded="true" signature="124:126" ph="..." />
+                    <marker date="1582086240308" expanded="true" signature="124:126" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -201,14 +211,14 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/user/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="129">
-                  <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+                <state relative-caret-position="384">
+                  <caret line="53" selection-start-line="53" selection-end-line="53" />
                   <folding>
                     <element signature="e#5#69#0" expanded="true" />
-                    <marker date="1582086056375" expanded="true" signature="331:335" ph="..." />
-                    <marker date="1582086056375" expanded="true" signature="737:742" ph="..." />
-                    <marker date="1582086056375" expanded="true" signature="1496:1577" ph="..." />
-                    <marker date="1582086056375" expanded="true" signature="1606:1611" ph="..." />
+                    <marker date="1582088738448" expanded="true" signature="331:335" ph="..." />
+                    <marker date="1582088738448" expanded="true" signature="737:742" ph="..." />
+                    <marker date="1582088738448" expanded="true" signature="1525:1606" ph="..." />
+                    <marker date="1582088738448" expanded="true" signature="1635:1640" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -310,12 +320,14 @@
         <option value="$PROJECT_DIR$/user/templates/registration/logout.html" />
         <option value="$PROJECT_DIR$/user/urls.py" />
         <option value="$PROJECT_DIR$/user/templates/registration/login.html" />
-        <option value="$PROJECT_DIR$/quizApp/views.py" />
         <option value="$PROJECT_DIR$/user/templates/registration/register.html" />
         <option value="$PROJECT_DIR$/user/models.py" />
         <option value="$PROJECT_DIR$/user/templates/registration/no_access.html" />
         <option value="$PROJECT_DIR$/user/forms.py" />
+        <option value="$PROJECT_DIR$/user/templates/user/quiz_admin.html" />
+        <option value="$PROJECT_DIR$/user/templates/user/quiz_taker.html" />
         <option value="$PROJECT_DIR$/user/views.py" />
+        <option value="$PROJECT_DIR$/quizApp/views.py" />
       </list>
     </option>
   </component>
@@ -404,6 +416,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/quizApp/templates/quizApp" />
       <recent name="$PROJECT_DIR$/user/templates" />
       <recent name="$PROJECT_DIR$/user" />
       <recent name="$PROJECT_DIR$/quizApp/templates/registration" />
@@ -601,27 +614,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
-    </task>
-    <task id="LOCAL-00211" summary="Access">
-      <created>1582067734428</created>
-      <option name="number" value="00211" />
-      <option name="presentableId" value="LOCAL-00211" />
-      <option name="project" value="LOCAL" />
-      <updated>1582067734429</updated>
-    </task>
-    <task id="LOCAL-00212" summary="Access">
-      <created>1582068177888</created>
-      <option name="number" value="00212" />
-      <option name="presentableId" value="LOCAL-00212" />
-      <option name="project" value="LOCAL" />
-      <updated>1582068177888</updated>
-    </task>
-    <task id="LOCAL-00213" summary="Access">
-      <created>1582068247259</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1582068247260</updated>
     </task>
     <task id="LOCAL-00214" summary="Access">
       <created>1582068889279</created>
@@ -945,7 +937,28 @@
       <option name="project" value="LOCAL" />
       <updated>1582085645223</updated>
     </task>
-    <option name="localTasksCounter" value="260" />
+    <task id="LOCAL-00260" summary="Access">
+      <created>1582086118198</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1582086118198</updated>
+    </task>
+    <task id="LOCAL-00261" summary="Access">
+      <created>1582086190825</created>
+      <option name="number" value="00261" />
+      <option name="presentableId" value="LOCAL-00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1582086190825</updated>
+    </task>
+    <task id="LOCAL-00262" summary="Access">
+      <created>1582086241843</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1582086241843</updated>
+    </task>
+    <option name="localTasksCounter" value="263" />
     <servers />
   </component>
   <component name="TodoView">
@@ -962,13 +975,13 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.10658083" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1981402" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.31831187" weight="0.3385542" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" sideWeight="0.68168813" side_tool="true" visible="true" weight="0.3385542" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.68168813" side_tool="true" visible="true" weight="0.3385542" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="6" />
@@ -1190,16 +1203,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quizApp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="77" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/templates/registration/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1243,25 +1246,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+        <state relative-caret-position="135">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <marker date="1582084085433" expanded="true" signature="124:126" ph="..." />
+            <marker date="1582086240308" expanded="true" signature="124:126" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quizApp/templates/quizApp/quiz_admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quizApp/templates/quizApp/quiz_taker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        <state relative-caret-position="384">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="e#5#69#0" expanded="true" />
-            <marker date="1582086056375" expanded="true" signature="331:335" ph="..." />
-            <marker date="1582086056375" expanded="true" signature="737:742" ph="..." />
-            <marker date="1582086056375" expanded="true" signature="1496:1577" ph="..." />
-            <marker date="1582086056375" expanded="true" signature="1606:1611" ph="..." />
+            <marker date="1582088738448" expanded="true" signature="331:335" ph="..." />
+            <marker date="1582088738448" expanded="true" signature="737:742" ph="..." />
+            <marker date="1582088738448" expanded="true" signature="1525:1606" ph="..." />
+            <marker date="1582088738448" expanded="true" signature="1635:1640" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quizApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="34" column="99" selection-start-line="34" selection-start-column="99" selection-end-line="34" selection-end-column="99" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
