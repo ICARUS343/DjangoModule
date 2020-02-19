@@ -31,7 +31,6 @@ def register(request):
             user = authenticate(username=username1, password=raw_password)
             assignment = form.cleaned_data.get('user_group')
             group = Group.objects.get(name= assignment)
-            print(group)
             user.groups.add(group)
             auth_login(request, user)
             return redirect('/quizApp/')
