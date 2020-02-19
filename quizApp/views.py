@@ -44,12 +44,3 @@ def quiz_taker(request):
 def quiz_admin(request):
     return render(request, "quizApp/quiz_admin.html")
 
-
-def is_quiz_taker(user):
-    return user.groups.filter(name='quiz_takers').exists()
-def is_quiz_admin(user):
-    return user.groups.filter(name='quiz_admins').exists()
-def is_quiz_maker(user):
-    return user.groups.filter(name='quiz_makers').exists()
-def is_in_multiple_groups(user):
-    return user.groups.filter(name__in=['group1', 'group2']).exists()
