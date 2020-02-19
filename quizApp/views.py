@@ -1,7 +1,7 @@
 from django.shortcuts import get_object_or_404, render, redirect
 from django.http import Http404
 
-from .models import *
+from .models import Quiz, Question
 from django.contrib.auth.decorators import login_required, user_passes_test
 from django.contrib.auth.models import Group
 
@@ -37,10 +37,10 @@ def question(request, quiz):
 
 @login_required(login_url='/accounts/login/')
 def quiz_taker(request):
-    return render(request, "quizApp/quiz_taker.html")
+    return render(request, 'quizApp/quiz_taker.html')
 
 
 @login_required(login_url='/accounts/login/')
 def quiz_admin(request):
-    return render(request, "quizApp/quiz_admin.html")
+    return render(request, 'quizApp/quiz_admin.html')
 

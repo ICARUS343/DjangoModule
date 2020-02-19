@@ -13,7 +13,7 @@ urlpatterns = [
     # ex: /quizApp/5/answer/
     #path('<int:quiz_id>/answer/', views.answer_detail, name='answer_detail'),
 
-    path('quizApp/quiz_taker/', views.quiz_taker, name = 'quiz_taker'),
-    path('quizApp/quiz_admin/', views.quiz_admin, name='quiz_admin')
+    path('quiz_taker/', views.quiz_taker, name='quiz_taker'),
+    path('quiz_admin/', views.quiz_admin, name='quiz_admin')
 
 ]
