@@ -33,7 +33,7 @@ def register(request):
             return redirect('/quizApp/')
     else:
         form = SignUpForm()
-    return render(request, 'registration/registration.html', {'form': form})
+    return render(request, 'registration/register.html', {'form': form})
 
 
 
