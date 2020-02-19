@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required, user_passes_test
 
 
 @login_required(login_url='/accounts/login/')
-@user_passes_test(lambda u: u.groups.filter(name='quiz_makers').count() == 1, login_url='/quizApp/quiz_taker')
+@user_passes_test(lambda u: u.groups.filter(name='quiz_makers').count() == 1, login_url='/quizApp/quiz_admin')
 def index(request):
     latest_quiz_list = Quiz.objects.order_by('id')[:5]
     context = {
@@ -16,7 +16,7 @@ def index(request):
 
 
 @login_required(login_url='/accounts/login/')
-@user_passes_test(lambda u: u.groups.filter(name='quiz_makers').count() == 1, login_url='/quizApp/quiz_taker')
+@user_passes_test(lambda u: u.groups.filter(name='quiz_makers').count() == 1, login_url='/quizApp/quiz_admin')
 def question(request, quiz):
     try:
         latest_question_list = Question.objects.filter(quiz_foreign_key = quiz)
