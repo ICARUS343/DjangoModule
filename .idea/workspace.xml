@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +63,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="2209" />
-          <entry key="py" value="3308" />
+          <entry key="py" value="3314" />
           <entry key="py@DjangoModules-master" value="59" />
           <entry key="txt" value="572" />
         </counts>
@@ -75,7 +73,7 @@
           <entry key="CommandLine" value="59" />
           <entry key="HTML" value="2166" />
           <entry key="PLAIN_TEXT" value="572" />
-          <entry key="Python" value="3308" />
+          <entry key="Python" value="3314" />
           <entry key="SQL" value="43" />
         </counts>
       </usages-collector>
@@ -203,14 +201,14 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/user/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="273">
-                  <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+                <state relative-caret-position="243">
+                  <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
                   <folding>
                     <element signature="e#5#69#0" expanded="true" />
-                    <marker date="1582084104290" expanded="true" signature="284:288" ph="..." />
-                    <marker date="1582084104290" expanded="true" signature="690:695" ph="..." />
-                    <marker date="1582084104290" expanded="true" signature="1457:1538" ph="..." />
-                    <marker date="1582084104290" expanded="true" signature="1567:1572" ph="..." />
+                    <marker date="1582084571417" expanded="true" signature="284:288" ph="..." />
+                    <marker date="1582084571417" expanded="true" signature="690:695" ph="..." />
+                    <marker date="1582084571417" expanded="true" signature="1461:1542" ph="..." />
+                    <marker date="1582084571417" expanded="true" signature="1571:1576" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -604,20 +602,6 @@
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
     </task>
-    <task id="LOCAL-00206" summary="&#10;s">
-      <created>1582066438848</created>
-      <option name="number" value="00206" />
-      <option name="presentableId" value="LOCAL-00206" />
-      <option name="project" value="LOCAL" />
-      <updated>1582066438848</updated>
-    </task>
-    <task id="LOCAL-00207" summary="&#10;s">
-      <created>1582066501946</created>
-      <option name="number" value="00207" />
-      <option name="presentableId" value="LOCAL-00207" />
-      <option name="project" value="LOCAL" />
-      <updated>1582066501946</updated>
-    </task>
     <task id="LOCAL-00208" summary="&#10;s">
       <created>1582066793154</created>
       <option name="number" value="00208" />
@@ -947,7 +931,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582083866419</updated>
     </task>
-    <option name="localTasksCounter" value="255" />
+    <task id="LOCAL-00255" summary="Access">
+      <created>1582084112551</created>
+      <option name="number" value="00255" />
+      <option name="presentableId" value="LOCAL-00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1582084112551</updated>
+    </task>
+    <task id="LOCAL-00256" summary="Access">
+      <created>1582084574734</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1582084574734</updated>
+    </task>
+    <option name="localTasksCounter" value="257" />
     <servers />
   </component>
   <component name="TodoView">
@@ -961,7 +959,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.10658083" />
@@ -1256,14 +1253,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        <state relative-caret-position="243">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
           <folding>
             <element signature="e#5#69#0" expanded="true" />
-            <marker date="1582084104290" expanded="true" signature="284:288" ph="..." />
-            <marker date="1582084104290" expanded="true" signature="690:695" ph="..." />
-            <marker date="1582084104290" expanded="true" signature="1457:1538" ph="..." />
-            <marker date="1582084104290" expanded="true" signature="1567:1572" ph="..." />
+            <marker date="1582084571417" expanded="true" signature="284:288" ph="..." />
+            <marker date="1582084571417" expanded="true" signature="690:695" ph="..." />
+            <marker date="1582084571417" expanded="true" signature="1461:1542" ph="..." />
+            <marker date="1582084571417" expanded="true" signature="1571:1576" ph="..." />
           </folding>
         </state>
       </provider>
