@@ -26,7 +26,7 @@ def register(request):
         form = SignUpForm(request.POST)
         if form.is_valid():
             form.save()
-            username = form.cleaned_data['username']
+            username = form.cleaned_data['name']
             password = form.cleaned_data['password1']
             user = authenticate(username=username, password=password)
             group = Group.objects.get(name=user.cleaned_data['user_group'])
