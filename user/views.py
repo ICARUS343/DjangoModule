@@ -1,7 +1,6 @@
 from django.shortcuts import get_object_or_404, render, redirect
 from django.http import Http404
 
-from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import logout as auth_logout
 
 from .forms import SignUpForm
@@ -33,7 +32,7 @@ def register(request):
             auth_login(request, user)
             return redirect('/quizApp/')
     else:
-        form = UserCreationForm()
+        form = SignUpForm()
     context = {'form' : form}
     return render(request, 'registration/register.html', context)
 
