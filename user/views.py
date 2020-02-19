@@ -33,9 +33,9 @@ def register(request):
 
             assignment = form.cleaned_data.get('user_group')
 
-
-            group = get_object_or_404(Group.objects.get(name=assignment))
-            user.groups.add(group)
+            g = Group.objects.get(name='quiz_maker')
+            g.user_set.add(user)
+            user.groups.add(g)
             auth_login(request, user)
             return redirect('/quizApp/')
     else:
