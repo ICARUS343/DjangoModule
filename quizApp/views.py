@@ -37,10 +37,10 @@ def question(request, quiz):
 
 @login_required(login_url='/accounts/login/')
 def quiz_taker(request):
-    return render(request, 'quizApp/quiz_taker.html')
+    return render(request, '/quizApp/quiz_taker.html')
 
 
 @login_required(login_url='/accounts/login/')
 def quiz_admin(request):
-    return render(request, 'quizApp/quiz_admin.html')
+    return render(request, '/quizApp/quiz_admin.html')
 
