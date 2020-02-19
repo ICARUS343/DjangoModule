@@ -34,7 +34,7 @@ def quiz_taker(request):
 
 
 @login_required(login_url='/accounts/login/')
-@user_passes_test(lambda u: u.groups.filter(name='quiz_admins').count() == 1, login_url='/quizApp')
+@user_passes_test(lambda u: u.groups.filter(name='quiz_admins').count() == 1, login_url='quizApp/')
 def quiz_admin(request):
     return render(request, "quizApp/quiz_admin.html")
 
