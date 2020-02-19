@@ -46,7 +46,7 @@ def quiz_admin(request):
     users = User.objects.all()
     group = []
     for u in users:
-        group.add(u.groups.values_list('name', flat=True).first())
+        group.append(u.groups.values_list('name', flat=True).first())
     context = {'users_list':users,'user_group':group}
     return render(request, 'quizApp/quiz_admin.html', context)
 
