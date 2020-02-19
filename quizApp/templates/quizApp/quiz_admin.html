@@ -5,17 +5,12 @@
 <p><h1>Quiz Admin</h1></p>
 <div class="card mx-auto">
     <div class="card-body">
-        <li class="list-group-item"><a href="{% url 'logout' %}"
-                                       class="list-group-item list-group-item-action active">
-            Logout</a>
-        </li>
-
         <div class="list-group">
             <ul class="list-group">
                 {% for User in users_list %}
                     <table>
                         <li class = "list-group-item">
-                        <li class="list-group-item">{{ User.username }} <hr> {{ User.user_group }}</li>
+                        <li class="list-group-item">{{ User.username }} <br> {{ User.user_group }}</li>
                         <button class="button left">
                             <a href="{% url 'quiz_admin' %}"
 
