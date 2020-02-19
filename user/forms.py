@@ -9,7 +9,8 @@ class SignUpForm(UserCreationForm):
         ("2", "quiz_maker"),
         ("3", "quiz_taker"),
     )
+    user_group = forms.ChoiceField(choices=user_group1)
+
     class Meta:
         model = User
-        user_group = forms.ChoiceField(choices = user_group1)
         fields = ('username', 'user_group', 'password1', 'password2', )
