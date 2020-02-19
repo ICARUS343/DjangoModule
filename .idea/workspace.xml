@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,7 +64,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="2201" />
-          <entry key="py" value="2851" />
+          <entry key="py" value="2953" />
           <entry key="py@DjangoModules-master" value="59" />
           <entry key="txt" value="572" />
         </counts>
@@ -74,7 +74,7 @@
           <entry key="CommandLine" value="59" />
           <entry key="HTML" value="2158" />
           <entry key="PLAIN_TEXT" value="572" />
-          <entry key="Python" value="2851" />
+          <entry key="Python" value="2953" />
           <entry key="SQL" value="43" />
         </counts>
       </usages-collector>
@@ -123,8 +123,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/user/forms.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+                <state relative-caret-position="195">
+                  <caret line="13" column="113" selection-start-line="13" selection-start-column="113" selection-end-line="13" selection-end-column="113" />
+                  <folding>
+                    <element signature="e#0#24#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -202,14 +205,14 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/user/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="217">
-                  <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+                <state relative-caret-position="133">
+                  <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
                   <folding>
                     <element signature="e#5#69#0" expanded="true" />
-                    <marker date="1582074066539" expanded="true" signature="282:286" ph="..." />
-                    <marker date="1582074066539" expanded="true" signature="688:693" ph="..." />
-                    <marker date="1582074066539" expanded="true" signature="1528:1609" ph="..." />
-                    <marker date="1582074066539" expanded="true" signature="1638:1643" ph="..." />
+                    <marker date="1582074742623" expanded="true" signature="284:288" ph="..." />
+                    <marker date="1582074742623" expanded="true" signature="690:695" ph="..." />
+                    <marker date="1582074742623" expanded="true" signature="1430:1511" ph="..." />
+                    <marker date="1582074742623" expanded="true" signature="1540:1545" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -603,13 +606,6 @@
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
     </task>
-    <task id="LOCAL-00185" summary="New user registration template">
-      <created>1582061754064</created>
-      <option name="number" value="00185" />
-      <option name="presentableId" value="LOCAL-00185" />
-      <option name="project" value="LOCAL" />
-      <updated>1582061754064</updated>
-    </task>
     <task id="LOCAL-00186" summary="New user registration template">
       <created>1582061784386</created>
       <option name="number" value="00186" />
@@ -946,7 +942,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582073581527</updated>
     </task>
-    <option name="localTasksCounter" value="234" />
+    <task id="LOCAL-00234" summary="Access">
+      <created>1582074069788</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1582074069788</updated>
+    </task>
+    <option name="localTasksCounter" value="235" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1232,13 +1235,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/templates/registration/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1246,23 +1242,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/user/templates/registration/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        <state relative-caret-position="195">
+          <caret line="13" column="113" selection-start-line="13" selection-start-column="113" selection-end-line="13" selection-end-column="113" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="133">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
           <folding>
             <element signature="e#5#69#0" expanded="true" />
-            <marker date="1582074066539" expanded="true" signature="282:286" ph="..." />
-            <marker date="1582074066539" expanded="true" signature="688:693" ph="..." />
-            <marker date="1582074066539" expanded="true" signature="1528:1609" ph="..." />
-            <marker date="1582074066539" expanded="true" signature="1638:1643" ph="..." />
+            <marker date="1582074742623" expanded="true" signature="284:288" ph="..." />
+            <marker date="1582074742623" expanded="true" signature="690:695" ph="..." />
+            <marker date="1582074742623" expanded="true" signature="1430:1511" ph="..." />
+            <marker date="1582074742623" expanded="true" signature="1540:1545" ph="..." />
           </folding>
         </state>
       </provider>
