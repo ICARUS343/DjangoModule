@@ -9,11 +9,11 @@
     <div class="card-body">
         <div class="list-group">
             <ul class="list-group" style="max-height: 300px, ">
-                {% for User in users_list %}
+                {% for u,g in zip(users_list,group_list) %}
                     <table>
                         <li class = "list-group-item">
-                        <li class="list-group-item">Username: {{ User.username }} <br>
-                        Group: {{ User.roup.name }}</li>
+                        <li class="list-group-item">Username: {{ u.username }} <br>
+                        Group: {{ g }}</li>
                         <button class="button left">
                             <a href="{% url 'quiz_admin' %}"
 

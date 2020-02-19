@@ -44,6 +44,9 @@ def quiz_taker(request):
 @login_required(login_url='/accounts/login/')
 def quiz_admin(request):
     users = User.objects.all()
-    context = {'users_list':users}
+    group = []
+    for u in users:
+        group.add(u.groups.values_list('name', flat=True).first())
+    context = {'users_list':users,'user_group':group}
     return render(request, 'quizApp/quiz_admin.html', context)
 
