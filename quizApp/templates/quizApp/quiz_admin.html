@@ -1,20 +1,12 @@
-.list-group{
-    max-height: 300px;
-    margin-bottom: 10px;
-    overflow:scroll;
-    -webkit-overflow-scrolling: touch;
-}
-
 
 {% extends 'quizApp/base.html' %}
-
 {% block content %}
 
 <p><h1>Quiz Admin</h1></p>
 <div class="card mx-auto">
     <div class="card-body">
         <div class="list-group">
-            <ul class="list-group">
+            <ul class="list-group" style="max-height: 300px, ">
                 {% for User in users_list %}
                     <table>
                         <li class = "list-group-item">
