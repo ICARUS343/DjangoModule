@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +49,7 @@
         <counts>
           <entry key="html" value="19" />
           <entry key="pip" value="1" />
-          <entry key="py" value="26" />
+          <entry key="py" value="27" />
           <entry key="save" value="1" />
           <entry key="sql" value="1" />
         </counts>
@@ -57,14 +58,14 @@
         <counts>
           <entry key="HTML" value="19" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="27" />
+          <entry key="Python" value="28" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="2201" />
-          <entry key="py" value="2636" />
+          <entry key="py" value="2749" />
           <entry key="py@DjangoModules-master" value="59" />
           <entry key="txt" value="572" />
         </counts>
@@ -74,14 +75,14 @@
           <entry key="CommandLine" value="59" />
           <entry key="HTML" value="2158" />
           <entry key="PLAIN_TEXT" value="572" />
-          <entry key="Python" value="2636" />
+          <entry key="Python" value="2749" />
           <entry key="SQL" value="43" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47496423">
+    <splitter split-orientation="horizontal" split-proportion="0.24259408">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -123,11 +124,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/user/forms.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-                  <folding>
-                    <element signature="e#0#24#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="75">
+                  <caret line="5" selection-start-line="5" selection-end-line="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/user/models.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
                 </state>
               </provider>
             </entry>
@@ -196,14 +203,14 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/user/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="352">
-                  <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+                <state relative-caret-position="374">
+                  <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
                   <folding>
                     <element signature="e#5#69#0" expanded="true" />
-                    <marker date="1582071911689" expanded="true" signature="271:275" ph="..." />
-                    <marker date="1582071911689" expanded="true" signature="677:682" ph="..." />
-                    <marker date="1582071911689" expanded="true" signature="1298:1379" ph="..." />
-                    <marker date="1582071911689" expanded="true" signature="1408:1413" ph="..." />
+                    <marker date="1582073257223" expanded="true" signature="269:273" ph="..." />
+                    <marker date="1582073257223" expanded="true" signature="675:680" ph="..." />
+                    <marker date="1582073257223" expanded="true" signature="1304:1385" ph="..." />
+                    <marker date="1582073257223" expanded="true" signature="1414:1419" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -308,6 +315,7 @@
         <option value="$PROJECT_DIR$/user/templates/registration/no_access.html" />
         <option value="$PROJECT_DIR$/quizApp/views.py" />
         <option value="$PROJECT_DIR$/user/templates/registration/register.html" />
+        <option value="$PROJECT_DIR$/user/models.py" />
         <option value="$PROJECT_DIR$/user/forms.py" />
         <option value="$PROJECT_DIR$/user/views.py" />
       </list>
@@ -595,20 +603,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
-    </task>
-    <task id="LOCAL-00179" summary="New user registration template">
-      <created>1582059903917</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
-      <option name="project" value="LOCAL" />
-      <updated>1582059903917</updated>
-    </task>
-    <task id="LOCAL-00180" summary="New user registration template">
-      <created>1582060072043</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1582060072043</updated>
     </task>
     <task id="LOCAL-00181" summary="New user registration template">
       <created>1582061352991</created>
@@ -939,7 +933,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582071837555</updated>
     </task>
-    <option name="localTasksCounter" value="228" />
+    <task id="LOCAL-00228" summary="Access">
+      <created>1582071914398</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1582071914398</updated>
+    </task>
+    <task id="LOCAL-00229" summary="Access">
+      <created>1582072059410</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1582072059411</updated>
+    </task>
+    <option name="localTasksCounter" value="230" />
     <servers />
   </component>
   <component name="TodoView">
@@ -956,13 +964,13 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.10658083" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.10658083" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.31831187" weight="0.3385542" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" sideWeight="0.68168813" side_tool="true" visible="true" weight="0.3385542" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.68168813" side_tool="true" visible="true" weight="0.3385542" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="6" />
@@ -1232,26 +1240,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/user/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        <state relative-caret-position="374">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
           <folding>
             <element signature="e#5#69#0" expanded="true" />
-            <marker date="1582071911689" expanded="true" signature="271:275" ph="..." />
-            <marker date="1582071911689" expanded="true" signature="677:682" ph="..." />
-            <marker date="1582071911689" expanded="true" signature="1298:1379" ph="..." />
-            <marker date="1582071911689" expanded="true" signature="1408:1413" ph="..." />
+            <marker date="1582073257223" expanded="true" signature="269:273" ph="..." />
+            <marker date="1582073257223" expanded="true" signature="675:680" ph="..." />
+            <marker date="1582073257223" expanded="true" signature="1304:1385" ph="..." />
+            <marker date="1582073257223" expanded="true" signature="1414:1419" ph="..." />
           </folding>
         </state>
       </provider>
