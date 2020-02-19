@@ -1,3 +1,7 @@
+{% extends 'quizApp/base.html' %}
+
+{% block content %}
+
 <p><h1>Quiz Admin</h1></p>
 <div class="card mx-auto">
     <div class="card-body">
@@ -10,14 +14,14 @@
             <ul class="list-group">
                 {% for User in users_list %}
                     <table>
-                    <li class="list-group-item">Test</li>
-                    <li class="list-group-item active">
-                        <a href="{% url 'quiz_admin' %}"
+                        <li class="list-group-item">Test</li>
+                        <li class="list-group-item active">
+                            <a href="{% url 'quiz_admin' %}"
 
-                           class="list-group-item list-group-item-action active"> Remove </a>
+                               class="list-group-item list-group-item-action active"> Remove </a>
 
 
-                    </li>
+                        </li>
                     </table>
 
                 {% empty %}
@@ -27,4 +31,5 @@
         </div>
     </div>
 </div>
+{% endblock %}
 
