@@ -17,7 +17,7 @@
                         <table class="table">
                             <tr>
                                 <td>
-                                    <li class="list-group-item">{% u.id %}</li>
+                                    <li class="list-group-item">{% u.get_full_name() %}</li>
                                     >
                                 </td>
                                 <td>
@@ -29,7 +29,6 @@
                                 </td>
                             </tr>
                         </table>
-
                     {% empty %}
                         <li class="list-group-item">No users on this Quiz app yet.</li>
                     {% endfor %}
