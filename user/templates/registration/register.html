@@ -39,10 +39,11 @@
 
                             <tr>
 
-                                <td><a class = "text-center">Already have an account</a></td>
-                                <td><input type="submit" value="Register" class="btn btn-success">
-                                    <a class="btn btn-primary form-control" href="{% url 'login' %}"
-                                       role="button">Login</a>
+                                <td><label classs = "control-label">Already have an account: <a  href="{% url 'login' %}"> LogIn</a></label>
+
+                                </td>
+
+                                <td>a class="btn btn-primary" style="float: right" href="{% url 'register' %}" role="button">Register</a>
                                 </td>
                             </tr>
 
