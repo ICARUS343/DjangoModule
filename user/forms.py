@@ -11,4 +11,4 @@ class RegisterForm(forms.Form):
     username = forms.CharField(widget=forms.TextInput(attrs={'class':'form-control'}))
     password1 = forms.CharField(widget=forms.PasswordInput(attrs={'class':'form-control'}))
     password2 = forms.CharField(widget=forms.PasswordInput(attrs={'class':'form-control'}))
-    user_group = forms.ChoiceField(choices=user_group1, widget = forms.ChoiceField(attrs={'class': 'form-countrol'}))
+    user_group = forms.ChoiceField(widget=forms.ChoiceField(attrs={'class':'form-control'},choices=user_group1))
