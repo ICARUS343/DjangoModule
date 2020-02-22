@@ -2,27 +2,29 @@
 
 {% block content %}
 
-    <div class="container h-1000 d-flex justify-content-center">
+    <div class="container h-100 d-flex justify-content-center">
         <div class="jumbotron my-auto">
-            <div class="form-inline">
+            <div class="form-group">
                 <form class='form-control' id="register-form" method="post"
                       action="{% url 'register' %}">
 
-                    {% csrf_token %}
-                    {% if form.errors %}
-                        <p class=" label label-danger">
-                            There are errors in the form.
-                            Please try again.
-                        </p>
-                    {% endif %}
-                    {{ form }}
-                    <input type="submit" value="Register"
-                           class="btn btn-primary pull-right form-control"/>
+                        {% csrf_token %}
+                        {% if form.errors %}
+                            <p class=" label label-danger">
+                                There are errors in the form.
+                                Please try again.
+                            </p>
+                        {% endif %}
+                        {{ form }}
+                        <input type="submit" value="Register"
+                               class="btn btn-primary pull-right"/>
 
-
-                    <a class="btn btn-primary form-control" href="{% url 'login' %}" role="button">Back</a>
                 </form>
             </div>
+            <div class="card-body">
+                <a class="btn btn-primary form-control" href="{% url 'login' %}" role="button">Back</a>
+            </div>
+
         </div>
     </div>
 
