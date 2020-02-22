@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="Looks.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/registration/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/registration/register.html" afterDir="false" />
+    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/user/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/forms.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,28 +133,7 @@
       <workItem from="1582300991811" duration="4467000" />
       <workItem from="1582324704021" duration="3044000" />
       <workItem from="1582397403709" duration="9000" />
-      <workItem from="1582398196464" duration="3420000" />
-    </task>
-    <task id="LOCAL-00324" summary="            Admin page">
-      <created>1582101304997</created>
-      <option name="number" value="00324" />
-      <option name="presentableId" value="LOCAL-00324" />
-      <option name="project" value="LOCAL" />
-      <updated>1582101304997</updated>
-    </task>
-    <task id="LOCAL-00325" summary="            Admin page">
-      <created>1582101500778</created>
-      <option name="number" value="00325" />
-      <option name="presentableId" value="LOCAL-00325" />
-      <option name="project" value="LOCAL" />
-      <updated>1582101500778</updated>
-    </task>
-    <task id="LOCAL-00326" summary="            Admin page">
-      <created>1582101602690</created>
-      <option name="number" value="00326" />
-      <option name="presentableId" value="LOCAL-00326" />
-      <option name="project" value="LOCAL" />
-      <updated>1582101602690</updated>
+      <workItem from="1582398196464" duration="3804000" />
     </task>
     <task id="LOCAL-00327" summary="            Admin page">
       <created>1582101639993</created>
@@ -479,7 +457,28 @@
       <option name="project" value="LOCAL" />
       <updated>1582404833862</updated>
     </task>
-    <option name="localTasksCounter" value="373" />
+    <task id="LOCAL-00373" summary="Looks.">
+      <created>1582405082231</created>
+      <option name="number" value="00373" />
+      <option name="presentableId" value="LOCAL-00373" />
+      <option name="project" value="LOCAL" />
+      <updated>1582405082231</updated>
+    </task>
+    <task id="LOCAL-00374" summary="Looks.">
+      <created>1582405127033</created>
+      <option name="number" value="00374" />
+      <option name="presentableId" value="LOCAL-00374" />
+      <option name="project" value="LOCAL" />
+      <updated>1582405127033</updated>
+    </task>
+    <task id="LOCAL-00375" summary="Looks.">
+      <created>1582405291022</created>
+      <option name="number" value="00375" />
+      <option name="presentableId" value="LOCAL-00375" />
+      <option name="project" value="LOCAL" />
+      <updated>1582405291022</updated>
+    </task>
+    <option name="localTasksCounter" value="376" />
     <servers />
   </component>
   <component name="TodoView">
@@ -550,10 +549,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="63" key="#DjangoModules-master/0.0.1440.900@0.0.1440.900" timestamp="1582241360698" />
-    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1582405126834">
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1582405290674">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582405126834" />
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582405290674" />
     <state width="699" height="40" key="GridCell.Tab.0.bottom" timestamp="1582256094160">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -574,10 +573,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582241398285" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582405128849">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582405293259">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582405128849" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582405293259" />
     <state x="656" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1582398459690">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

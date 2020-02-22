@@ -1,6 +1,6 @@
 from django import forms
 
-class SignUpForm(UserCreationForm):
+
 
 class RegisterForm(forms.Form):
     user_group1 = (
@@ -8,7 +8,6 @@ class RegisterForm(forms.Form):
         ("quiz_makers", "quiz_makers"),
         ("quiz_takers", "quiz_takers"),
     )
-
 
     username = forms.CharField(widget=forms.TextInput(attrs={'class':'form-control'}))
     password1 = forms.CharField(widget=forms.PasswordInput(attrs={'class':'form-control'}))
