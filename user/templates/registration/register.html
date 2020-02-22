@@ -4,10 +4,10 @@
 
     <div class="container h-100 d-flex justify-content-center">
         <div class="jumbotron my-auto">
-            <div class="container">
-                <form class='form-horizontal' id="register-form" method="post"
+            <div class="form-group">
+                <form class='form-control' id="register-form" method="post"
                       action="{% url 'register' %}">
-                    <div class="form-horizontal">
+
                         {% csrf_token %}
                         {% if form.errors %}
                             <p class=" label label-danger">
@@ -18,11 +18,11 @@
                         {{ form }}
                         <input type="submit" value="Register"
                                class="btn btn-primary pull-right"/>
-                    </div>
+
                 </form>
             </div>
             <div class="card-body">
-                <a class="btn btn-primary" href="{% url 'login' %}" role="button">Back</a>
+                <a class="btn btn-primary form-control" href="{% url 'login' %}" role="button">Back</a>
             </div>
 
         </div>
