@@ -134,21 +134,7 @@
       <workItem from="1582300991811" duration="4467000" />
       <workItem from="1582324704021" duration="3044000" />
       <workItem from="1582397403709" duration="9000" />
-      <workItem from="1582398196464" duration="5500000" />
-    </task>
-    <task id="LOCAL-00339" summary="            Admin page">
-      <created>1582104075284</created>
-      <option name="number" value="00339" />
-      <option name="presentableId" value="LOCAL-00339" />
-      <option name="project" value="LOCAL" />
-      <updated>1582104075284</updated>
-    </task>
-    <task id="LOCAL-00340" summary="            Admin page">
-      <created>1582104776203</created>
-      <option name="number" value="00340" />
-      <option name="presentableId" value="LOCAL-00340" />
-      <option name="project" value="LOCAL" />
-      <updated>1582104776204</updated>
+      <workItem from="1582398196464" duration="5773000" />
     </task>
     <task id="LOCAL-00341" summary="            Admin page">
       <created>1582104831219</created>
@@ -479,7 +465,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582407498775</updated>
     </task>
-    <option name="localTasksCounter" value="388" />
+    <task id="LOCAL-00388" summary="                        Looks.">
+      <created>1582407679119</created>
+      <option name="number" value="00388" />
+      <option name="presentableId" value="LOCAL-00388" />
+      <option name="project" value="LOCAL" />
+      <updated>1582407679120</updated>
+    </task>
+    <task id="LOCAL-00389" summary="                        Looks.">
+      <created>1582407820293</created>
+      <option name="number" value="00389" />
+      <option name="presentableId" value="LOCAL-00389" />
+      <option name="project" value="LOCAL" />
+      <updated>1582407820293</updated>
+    </task>
+    <option name="localTasksCounter" value="390" />
     <servers />
   </component>
   <component name="TodoView">
@@ -518,7 +518,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Back to quiz" />
     <MESSAGE value="Added to string functions to modules" />
     <MESSAGE value="Fixed query" />
     <MESSAGE value="Import" />
@@ -543,17 +542,18 @@
     <MESSAGE value="Admin page" />
     <MESSAGE value="            Admin page" />
     <MESSAGE value="Looks." />
-    <option name="LAST_COMMIT_MESSAGE" value="Looks." />
+    <MESSAGE value="                        Looks." />
+    <option name="LAST_COMMIT_MESSAGE" value="                        Looks." />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="63" key="#DjangoModules-master" timestamp="1582241360698">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="63" key="#DjangoModules-master/0.0.1440.900@0.0.1440.900" timestamp="1582241360698" />
-    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1582407678865">
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1582407820080">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582407678865" />
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582407820080" />
     <state width="699" height="40" key="GridCell.Tab.0.bottom" timestamp="1582256094160">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -574,10 +574,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582241398285" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582407680782">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582407822124">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582407680782" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582407822124" />
     <state x="656" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1582398459690">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
