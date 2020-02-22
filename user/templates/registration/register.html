@@ -2,7 +2,8 @@
 
 {% block content %}
 
-
+    <div class="container h-300 d-flex justify-content-center">
+        <div class="jumbotron my-auto">
             <div class="form-inline">
                 <form class='form-control' id="register-form" method="post"
                       action="{% url 'register' %}">
@@ -22,6 +23,7 @@
                     <a class="btn btn-primary form-control" href="{% url 'login' %}" role="button">Back</a>
                 </form>
             </div>
-
+        </div>
+    </div>
 
 {% endblock %}
