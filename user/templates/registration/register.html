@@ -8,22 +8,21 @@
                 <form class='form-control' id="register-form" method="post"
                       action="{% url 'register' %}">
 
-                        {% csrf_token %}
-                        {% if form.errors %}
-                            <p class=" label label-danger">
-                                There are errors in the form.
-                                Please try again.
-                            </p>
-                        {% endif %}
-                        {{ form }}
-                        <input type="submit" value="Register"
-                               class="btn btn-primary pull-right form-control"/>
+                    {% csrf_token %}
+                    {% if form.errors %}
+                        <p class=" label label-danger">
+                            There are errors in the form.
+                            Please try again.
+                        </p>
+                    {% endif %}
+                    {{ form }}
+                    <input type="submit" value="Register"
+                           class="btn btn-primary pull-right form-control"/>
 
+
+                    <a class="btn btn-primary form-control" href="{% url 'login' %}" role="button">Back</a>
                 </form>
             </div>
-
-                <a class="btn btn-primary form-control" href="{% url 'login' %}" role="button">Back</a>
-
         </div>
     </div>
 
