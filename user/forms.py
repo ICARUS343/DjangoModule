@@ -1,16 +1,10 @@
 from django import forms
-from django.contrib.auth.forms import UserCreationForm
-from django.contrib.auth.models import User
 
-
-class SignUpForm(UserCreationForm):
-    user_group1 = (
-        ("quiz_admins", "quiz_admins"),
-        ("quiz_makers", "quiz_makers"),
-        ("quiz_takers", "quiz_takers"),
-    )
-    user_group = forms.ChoiceField(choices=user_group1)
-
-    class Meta:
-        model = User
-        fields = ('username', 'password1', 'password2','user_group',)
+class RegisterForm(forms.Form):
+    username = forms.CharField(widget=forms.TextInput(attrs={'class':'form-control'}))
+    email = forms.EmailField(widget=forms.EmailInput(attrs={'class':'form-control'}))
+    password = forms.CharField(widget=forms.PasswordInput(attrs={'class':'form-control'}))
+    password_repeat = forms.CharField(widget=forms.PasswordInput(attrs={'class':'form-control'}))
+    first_name = forms.CharField(widget=forms.TextInput(attrs={'class':'form-control'}))
+    last_name = forms.CharField(widget=forms.TextInput(attrs={'class':'form-control'}))
+    phone_number = forms.CharField(widget=forms.NumberInput(attrs={'class':'form-control'}), required=False)
