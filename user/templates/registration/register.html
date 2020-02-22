@@ -36,6 +36,18 @@
                                     group:</label></td>
                                 <td> {{ form.user_group }}</td>
                             </tr>
+                            <tr>
+
+                                <td><input type="submit" value="Register" class="btn btn-success">
+                                    <a class="btn btn-primary form-control" href="{% url 'login' %}"
+                                       role="button">Back</a>
+                                </td>
+                                <td><input type="submit" value="Register" class="btn btn-success">
+                                    <a class="btn btn-primary form-control" href="{% url 'login' %}"
+                                       role="button">Login</a>
+                                </td>
+                            </tr>
+
                         </table>
                     </div>
                 </div>
@@ -44,19 +56,6 @@
     </div>
 
 
-                    </div>
-                    <div class="col-md-6 col-md-offset-4">
-                        <input type="submit" value="Register" class="btn btn-success">
-                        <a class="btn btn-primary form-control" href="{% url 'login' %}" role="button">Back</a>
-
-                    </div>
-                </div>
-            </div>
-    </div>
-
-
-    </form>
-    </div>
 
 
 {% endblock %}
