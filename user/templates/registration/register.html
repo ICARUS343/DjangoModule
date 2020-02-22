@@ -15,48 +15,47 @@
                         {% if error_message %}
                             <p class="bg-danger p-d ml-b">{{ error_message }}</p>
                         {% endif %}
-
-                        <div class="form-group clearfix">
-                            <label for="{{ form.username.id_for_label }}" class="col-md-4 control-label text-right">Username<span
-                                    class="text-red">*</span>:</label>
-                            <div class="col-md-5 text-left">
-                                {{ form.username }}
-                            </div>
-                        </div>
-
-                        <div class="form-group clearfix">
-                            <label for="{{ form.password1.id_for_label }}" class="col-md-4 control-label text-right">Password<span
-                                    class="text-red">*</span>:</label>
-                            <div class="col-md-6">
-                                {{ form.password1 }}
-                            </div>
-                        </div>
-                        <div class="form-group clearfix">
-                            <label for="{{ form.password2.id_for_label }}" class="col-md-4 control-label text-right">Confirm
-                                password:</label>
-                            <div class="col-md-6">
-                                {{ form.password2 }}
-                            </div>
-                        </div>
-
-                        <div class="form-group clearfix">
-                            <label for="{{ form.user_group.id_for_label }}" class="col-md-4 control-label text-right">User
-                                Group:</label>
-                            <div class="col-md-6">
-                                {{ form.user_group }}
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-md-offset-4">
-                            <input type="submit" value="Register" class="btn btn-success">
-                            <a class="btn btn-primary form-control" href="{% url 'login' %}" role="button">Back</a>
-
-                        </div>
+                        <table class="table">
+                            <tr>
+                                <td><label for="{{ form.username.id_for_label }}"
+                                           class=" control-label">">Username</label></td>
+                                <td>{{ form.username }}</td>
+                            </tr>
+                            <tr>
+                                <td><label for="{{ form.password1.id_for_label }}"
+                                           class="control-label">">Password</label></td>
+                                <td> {{ form.password1 }}</td>
+                            </tr>
+                            <tr>
+                                <td><label for="{{ form.password2.id_for_label }}" class="control-label">">Confirm
+                                    Password</label></td>
+                                <td> {{ form.password1 }}</td>
+                            </tr>
+                            <tr>
+                                <td><label for="{{ form.user_group.id_for_label }}" class="control-label">">Select user
+                                    group:</label></td>
+                                <td> {{ form.user_group }}</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
-
-
         </form>
+    </div>
+
+
+                    </div>
+                    <div class="col-md-6 col-md-offset-4">
+                        <input type="submit" value="Register" class="btn btn-success">
+                        <a class="btn btn-primary form-control" href="{% url 'login' %}" role="button">Back</a>
+
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    </form>
     </div>
 
 
