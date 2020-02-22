@@ -134,35 +134,7 @@
       <workItem from="1582300991811" duration="4467000" />
       <workItem from="1582324704021" duration="3044000" />
       <workItem from="1582397403709" duration="9000" />
-      <workItem from="1582398196464" duration="2009000" />
-    </task>
-    <task id="LOCAL-00310" summary="Admin page">
-      <created>1582100092956</created>
-      <option name="number" value="00310" />
-      <option name="presentableId" value="LOCAL-00310" />
-      <option name="project" value="LOCAL" />
-      <updated>1582100092956</updated>
-    </task>
-    <task id="LOCAL-00311" summary="Admin page">
-      <created>1582100118948</created>
-      <option name="number" value="00311" />
-      <option name="presentableId" value="LOCAL-00311" />
-      <option name="project" value="LOCAL" />
-      <updated>1582100118948</updated>
-    </task>
-    <task id="LOCAL-00312" summary="Admin page">
-      <created>1582100276969</created>
-      <option name="number" value="00312" />
-      <option name="presentableId" value="LOCAL-00312" />
-      <option name="project" value="LOCAL" />
-      <updated>1582100276969</updated>
-    </task>
-    <task id="LOCAL-00313" summary="Admin page">
-      <created>1582100348389</created>
-      <option name="number" value="00313" />
-      <option name="presentableId" value="LOCAL-00313" />
-      <option name="project" value="LOCAL" />
-      <updated>1582100348389</updated>
+      <workItem from="1582398196464" duration="2226000" />
     </task>
     <task id="LOCAL-00314" summary="Admin page">
       <created>1582100435774</created>
@@ -479,7 +451,35 @@
       <option name="project" value="LOCAL" />
       <updated>1582400242548</updated>
     </task>
-    <option name="localTasksCounter" value="359" />
+    <task id="LOCAL-00359" summary="Looks.">
+      <created>1582400460970</created>
+      <option name="number" value="00359" />
+      <option name="presentableId" value="LOCAL-00359" />
+      <option name="project" value="LOCAL" />
+      <updated>1582400460970</updated>
+    </task>
+    <task id="LOCAL-00360" summary="Looks.">
+      <created>1582400496991</created>
+      <option name="number" value="00360" />
+      <option name="presentableId" value="LOCAL-00360" />
+      <option name="project" value="LOCAL" />
+      <updated>1582400496991</updated>
+    </task>
+    <task id="LOCAL-00361" summary="Looks.">
+      <created>1582400533087</created>
+      <option name="number" value="00361" />
+      <option name="presentableId" value="LOCAL-00361" />
+      <option name="project" value="LOCAL" />
+      <updated>1582400533087</updated>
+    </task>
+    <task id="LOCAL-00362" summary="Looks.">
+      <created>1582400562223</created>
+      <option name="number" value="00362" />
+      <option name="presentableId" value="LOCAL-00362" />
+      <option name="project" value="LOCAL" />
+      <updated>1582400562223</updated>
+    </task>
+    <option name="localTasksCounter" value="363" />
     <servers />
   </component>
   <component name="TodoView">
@@ -550,10 +550,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="63" key="#DjangoModules-master/0.0.1440.900@0.0.1440.900" timestamp="1582241360698" />
-    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1582400532753">
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1582400562032">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582400532753" />
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582400562032" />
     <state width="699" height="40" key="GridCell.Tab.0.bottom" timestamp="1582256094160">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -574,10 +574,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582241398285" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582400534777">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582400563671">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582400534777" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582400563671" />
     <state x="656" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1582398459690">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
