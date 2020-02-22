@@ -4,37 +4,31 @@
 
 {% block content %}
 
-<p><h1>Quiz Admin</h1></p>
-<div class="card mx-auto">
-    <div class="card-body">
-        <div class="list-group">
-            <ul class="list-group">
-                {% for User in users_list %}
-                    <table>
-                        <li class = "list-group-item">
-                        <li class="list-group-item">Username: {{ User.username }}
-                       </li>
+    <p><h1>Quiz Admin</h1></p>
+    <div class="card mx-auto">
+        <div class="card-body">
+            <div class="list-group">
+                <ul class="list-group">
+                    {% for User in users_list %}
+                        <table>
+                            <li class="list-group-item">
+                            <li class="list-group-item">Username: {{ User.username }}
+                            </li>
 
-                        <a href="{% url 'quiz_admin' %}"
+                            <a href="{% url 'quiz_admin' %}"
 
-                           class="list-group-item list-group-item-action active"> Remove </a>
-
-
+                               class="list-group-item list-group-item-action active"> Remove </a>
 
 
-                       
+                            </li>
+                        </table>
 
-
-
-                    </li>
-                    </table>
-
-                {% empty %}
-                    <li class="list-group-item">No users on this Quiz app yet.</li>
-                {% endfor %}
-            </ul>
+                    {% empty %}
+                        <li class="list-group-item">No users on this Quiz app yet.</li>
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
     </div>
-</div>
 {% endblock %}
 

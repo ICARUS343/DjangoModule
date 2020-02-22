@@ -1,11 +1,9 @@
 from django.shortcuts import get_object_or_404, render, redirect
 from django.contrib.auth.models import Group
 from django.shortcuts import get_object_or_404
-
-from django.contrib.auth import logout as auth_logout
-
 from .forms import SignUpForm
-from django.contrib.auth import authenticate, login as auth_login
+
+from django.contrib.auth import authenticate, login as auth_login, logout as auth_logout
 
 
 def login(request):
