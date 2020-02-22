@@ -6,7 +6,7 @@
         <div class="jumbotron my-auto">
             <form class = 'form' id="register-form" method="post"
                   action="{% url 'register' %}">
-            <div class="form-inline">
+            <div class="form">
                 {% csrf_token %}
                 {% if form.errors %}
                     <p class=" label label-danger">
