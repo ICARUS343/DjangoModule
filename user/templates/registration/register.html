@@ -2,6 +2,9 @@
 
 {% block content %}
 
+    <div class="container h-100 d-flex justify-content-center">
+        <div class="jumbotron my-auto">
+
                <form class='form-control' id="register-form" method="post"
                       action="{% url 'register' %}">
 
@@ -9,7 +12,7 @@
                        {% csrf_token %}
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Register</div>
+
                     <div class="panel-body">
                         {% if error_message %}
                             <p class="bg-danger p-d ml-b">{{ error_message }}</p>
@@ -54,6 +57,7 @@
 
 
                 </form>
+        </div></div>
 
 
 {% endblock %}
