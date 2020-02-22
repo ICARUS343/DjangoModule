@@ -1,13 +1,13 @@
 {% extends 'registration/index.html' %}
 {% block content_1 %}
 
-    {% endblock %}
+{% endblock %}
 {% block content %}
 
 
 
-    <div id="content-container row align-items-center justify-content-center" class="container p-none">
-        <div class="lgn-container col-lg-8">
+    <div class="container h-100 d-flex justify-content-center">
+        <div class="jumbotron my-auto">
             <form id="login-form" method="post"
                   action="{% url 'login' %}">
                 {% csrf_token %}
@@ -35,7 +35,7 @@
 
                         <td>
 
-                                <a class="btn btn-primary" style="float: right" href="{% url 'register' %}" role="button">Register</a>
+                            <a class="btn btn-primary" style="float: right" href="{% url 'register' %}" role="button">Register</a>
 
                     </tr>
 
