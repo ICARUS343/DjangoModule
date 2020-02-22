@@ -1,26 +1,29 @@
-{%  extends 'registration/index.html'%}
+{% extends 'registration/index.html' %}
 
 {% block content %}
 
-<div class="container h-100 d-flex justify-content-center">
-    <div class="jumbotron my-auto">        <form id="register-form" method="post"
-              action="{% url 'register' %}">
-            {% csrf_token %}
-            {% if form.errors %}
-                <p class=" label label-danger">
-                    There are errors in the form.
-                    Please try again.
-                </p>
-            {% endif %}
-            {{ form }}
-            <input type="submit" value="Register"
-                   class="btn btn-primary pull-right"/>
-        </form>
-        <div class="card-body">
-            <a class="btn btn-primary" href="{% url 'login' %}" role="button">Back</a>
-        </div>
+    <div class="container h-100 d-flex justify-content-center">
+        <div class="jumbotron my-auto">
+            <form class = 'form' id="register-form" method="post"
+                  action="{% url 'register' %}">
+            <div class="form-group">
+                {% csrf_token %}
+                {% if form.errors %}
+                    <p class=" label label-danger">
+                        There are errors in the form.
+                        Please try again.
+                    </p>
+                {% endif %}
+                {{ form }}
+                <input type="submit" value="Register"
+                       class="btn btn-primary pull-right"/>
+            </div>
+            </form>
+            <div class="card-body">
+                <a class="btn btn-primary" href="{% url 'login' %}" role="button">Back</a>
+            </div>
 
+        </div>
     </div>
-</div>
 
 {% endblock %}
