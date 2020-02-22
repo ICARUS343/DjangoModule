@@ -14,3 +14,6 @@ class SignUpForm(UserCreationForm):
     class Meta:
         model = User
         fields = ('username', 'password1', 'password2','user_group',)
+        widgets = {
+            'user_group': forms.TextInput(attrs={'class': 'myfieldclass'}),
+        }
