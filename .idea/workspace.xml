@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/registration/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/registration/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,21 +134,7 @@
       <workItem from="1582300991811" duration="4467000" />
       <workItem from="1582324704021" duration="3044000" />
       <workItem from="1582397403709" duration="9000" />
-      <workItem from="1582398196464" duration="5292000" />
-    </task>
-    <task id="LOCAL-00337" summary="            Admin page">
-      <created>1582104014466</created>
-      <option name="number" value="00337" />
-      <option name="presentableId" value="LOCAL-00337" />
-      <option name="project" value="LOCAL" />
-      <updated>1582104014466</updated>
-    </task>
-    <task id="LOCAL-00338" summary="            Admin page">
-      <created>1582104041375</created>
-      <option name="number" value="00338" />
-      <option name="presentableId" value="LOCAL-00338" />
-      <option name="project" value="LOCAL" />
-      <updated>1582104041375</updated>
+      <workItem from="1582398196464" duration="5500000" />
     </task>
     <task id="LOCAL-00339" summary="            Admin page">
       <created>1582104075284</created>
@@ -479,7 +465,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582407394260</updated>
     </task>
-    <option name="localTasksCounter" value="386" />
+    <task id="LOCAL-00386" summary="Looks.">
+      <created>1582407429973</created>
+      <option name="number" value="00386" />
+      <option name="presentableId" value="LOCAL-00386" />
+      <option name="project" value="LOCAL" />
+      <updated>1582407429973</updated>
+    </task>
+    <task id="LOCAL-00387" summary="Looks.">
+      <created>1582407498774</created>
+      <option name="number" value="00387" />
+      <option name="presentableId" value="LOCAL-00387" />
+      <option name="project" value="LOCAL" />
+      <updated>1582407498775</updated>
+    </task>
+    <option name="localTasksCounter" value="388" />
     <servers />
   </component>
   <component name="TodoView">
@@ -550,10 +550,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="63" key="#DjangoModules-master/0.0.1440.900@0.0.1440.900" timestamp="1582241360698" />
-    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1582407429797">
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1582407498502">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582407429797" />
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582407498502" />
     <state width="699" height="40" key="GridCell.Tab.0.bottom" timestamp="1582256094160">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -574,10 +574,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582241398285" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582407431966">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582407500815">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582407431966" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582407500815" />
     <state x="656" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1582398459690">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
