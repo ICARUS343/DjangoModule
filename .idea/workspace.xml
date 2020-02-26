@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,21 +138,7 @@
       <workItem from="1582324704021" duration="3044000" />
       <workItem from="1582397403709" duration="9000" />
       <workItem from="1582398196464" duration="10384000" />
-      <workItem from="1582655855050" duration="1235000" />
-    </task>
-    <task id="LOCAL-00357" summary="Looks.">
-      <created>1582400161771</created>
-      <option name="number" value="00357" />
-      <option name="presentableId" value="LOCAL-00357" />
-      <option name="project" value="LOCAL" />
-      <updated>1582400161771</updated>
-    </task>
-    <task id="LOCAL-00358" summary="Looks.">
-      <created>1582400242548</created>
-      <option name="number" value="00358" />
-      <option name="presentableId" value="LOCAL-00358" />
-      <option name="project" value="LOCAL" />
-      <updated>1582400242548</updated>
+      <workItem from="1582655855050" duration="1480000" />
     </task>
     <task id="LOCAL-00359" summary="Looks.">
       <created>1582400460970</created>
@@ -485,7 +469,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582729857658</updated>
     </task>
-    <option name="localTasksCounter" value="406" />
+    <task id="LOCAL-00406" summary="Removed unwanted '/'">
+      <created>1582730980923</created>
+      <option name="number" value="00406" />
+      <option name="presentableId" value="LOCAL-00406" />
+      <option name="project" value="LOCAL" />
+      <updated>1582730980923</updated>
+    </task>
+    <task id="LOCAL-00407" summary="Removed unwanted '/'">
+      <created>1582731078747</created>
+      <option name="number" value="00407" />
+      <option name="presentableId" value="LOCAL-00407" />
+      <option name="project" value="LOCAL" />
+      <updated>1582731078747</updated>
+    </task>
+    <option name="localTasksCounter" value="408" />
     <servers />
   </component>
   <component name="TodoView">
@@ -606,10 +604,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="63" key="#DjangoModules-master/0.0.1440.900@0.0.1440.900" timestamp="1582241360698" />
-    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1582730980575">
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1582731078433">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582730980575" />
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582731078433" />
     <state x="144" y="79" width="1152" height="720" key="DiffContextDialog" timestamp="1582412426347">
       <screen x="65" y="23" width="1375" height="877" />
     </state>
@@ -639,10 +637,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582241398285" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582730984187">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582731080998">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582730984187" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582731080998" />
     <state x="656" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1582655863289">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
