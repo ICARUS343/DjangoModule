@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/forms.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,21 +140,7 @@
       <workItem from="1582324704021" duration="3044000" />
       <workItem from="1582397403709" duration="9000" />
       <workItem from="1582398196464" duration="10384000" />
-      <workItem from="1582655855050" duration="2258000" />
-    </task>
-    <task id="LOCAL-00365" summary="Looks.">
-      <created>1582400978391</created>
-      <option name="number" value="00365" />
-      <option name="presentableId" value="LOCAL-00365" />
-      <option name="project" value="LOCAL" />
-      <updated>1582400978391</updated>
-    </task>
-    <task id="LOCAL-00366" summary="Looks.">
-      <created>1582401007798</created>
-      <option name="number" value="00366" />
-      <option name="presentableId" value="LOCAL-00366" />
-      <option name="project" value="LOCAL" />
-      <updated>1582401007798</updated>
+      <workItem from="1582655855050" duration="2649000" />
     </task>
     <task id="LOCAL-00367" summary="Looks.">
       <created>1582401062627</created>
@@ -486,7 +471,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582732086270</updated>
     </task>
-    <option name="localTasksCounter" value="414" />
+    <task id="LOCAL-00414" summary="Removed unwanted '/'">
+      <created>1582732226531</created>
+      <option name="number" value="00414" />
+      <option name="presentableId" value="LOCAL-00414" />
+      <option name="project" value="LOCAL" />
+      <updated>1582732226532</updated>
+    </task>
+    <task id="LOCAL-00415" summary="Removed unwanted '/'">
+      <created>1582732424022</created>
+      <option name="number" value="00415" />
+      <option name="presentableId" value="LOCAL-00415" />
+      <option name="project" value="LOCAL" />
+      <updated>1582732424022</updated>
+    </task>
+    <option name="localTasksCounter" value="416" />
     <servers />
   </component>
   <component name="TodoView">
@@ -607,10 +606,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="63" key="#DjangoModules-master/0.0.1440.900@0.0.1440.900" timestamp="1582241360698" />
-    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1582732226206">
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1582732423656">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582732226206" />
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582732423656" />
     <state x="144" y="79" width="1152" height="720" key="DiffContextDialog" timestamp="1582412426347">
       <screen x="65" y="23" width="1375" height="877" />
     </state>
@@ -640,10 +639,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582241398285" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582732228678">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582732426280">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582732228678" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582732426280" />
     <state x="656" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1582655863289">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
