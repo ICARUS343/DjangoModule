@@ -9,21 +9,26 @@ from django.contrib.auth.models import Group, User
 
 @login_required(login_url='/accounts/login/')
 def index(request):
-    users_in_admin = Group.objects.get(name='quiz_admins').user_set.all()
-    users_in_taker = Group.objects.get(name='quiz_takers').user_set.all()
-    users_in_maker = Group.objects.get(name='quiz_makers').user_set.all()
+    user_is_member : request.user.groups.all()
     if request.user in users_in_admin:
         return redirect('quiz_admin')
     if request.user in users_in_taker:
         return redirect('quiz_taker')
     if request.user in users_in_maker:
+
+    else:
+        return render(request, '/access')
+
+def quiz(request):
+    try:
         latest_quiz_list = Quiz.objects.order_by('id')[:5]
         context = {
             'latest_quiz_list': latest_quiz_list,
         }
-        return render(request, 'quizApp/quiz.html', context)
-    else:
-        return render(request, '/access')
+    except Quiz.DoesNotExist:
+        raise Http404("Quiz does not exist")
+    return render(request, 'quizApp/quiz.html', context)
+
 
 @login_required(login_url='/accounts/login/')
 def question(request, quiz):
@@ -47,3 +52,14 @@ def quiz_admin(request):
     context = {'users_list':users}
     return render(request, 'quizApp/quiz_admin.html', context)
 
+
+def user_is_admin(user):
+    return user.groups.filter(name='quiz_admin').count()
+
+
+def user_is_maker(user):
+    return user.groups.filter(name='quiz_maker').count()
+
+
+def user_is_taker(user):
+    return user.groups.filter(name='quiz_taker').count()
