@@ -2,12 +2,14 @@
 
 {% block content %}
 
-    < align="center">
+    <div align="center">
         <form class='form-control' id="register-form" method="post"
               action="{% url 'register' %}">
 
             {% csrf_token %}
             {% csrf_token %}
+            <div class="col-md-8 col-md-offset-2" style="padding-top: 20px">
+                <div class="panel panel-default">
 
                     <div class="panel-body">
                         {% if error_message %}
@@ -48,8 +50,8 @@
 
                         </table>
                     </div>
-
-
+                </div>
+            </div>
         </form>
     </div>
 
