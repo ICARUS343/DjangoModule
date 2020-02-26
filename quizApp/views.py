@@ -15,9 +15,8 @@ def index(request):
     if request.user in users_in_taker:
         return redirect('quiz_taker')
     if request.user in users_in_maker:
+        return redirect('quiz')
 
-    else:
-        return render(request, '/access')
 
 def quiz(request):
     try:
