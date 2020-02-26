@@ -1,7 +1,7 @@
 from django.shortcuts import get_object_or_404, render, redirect
 from django.contrib.auth.models import Group
 from django.shortcuts import get_object_or_404
-from .forms import RegisterForm
+from .forms import SignUpForm
 
 from django.contrib.auth import authenticate, login as auth_login, logout as auth_logout
 
@@ -22,7 +22,7 @@ def login(request):
 
 def register(request):
     if request.method == 'POST':
-        form = RegisterForm(request.POST, request.FILES)
+        form = SignUpForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
             username1 = form.cleaned_data.get('username')
@@ -36,7 +36,7 @@ def register(request):
             auth_login(request, user)
             return redirect('/quizApp/')
     else:
-        form = RegisterForm()
+        form = SignUpForm()
     return render(request, 'registration/register.html', {'form': form})
 
 
