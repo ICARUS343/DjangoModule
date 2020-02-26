@@ -9,9 +9,8 @@ class SignUpForm(UserCreationForm):
         ("quiz_makers", "quiz_makers"),
         ("quiz_takers", "quiz_takers"),
     )
-    user_group = forms.CheckboxSelectMultiple(widget=forms.RadioSelect(
-    attrs={'class': 'Radio'}), choices=user_group1)
-
+    user_group = forms.ChoiceField(choices=user_group1.objects.all(),
+    widget=forms.RadioSelect)
     class Meta:
         model = User
         fields = ('username', 'user_group', 'password1', 'password2',)
