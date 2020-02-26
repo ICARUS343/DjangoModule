@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,34 +138,6 @@
       <workItem from="1582324704021" duration="3044000" />
       <workItem from="1582397403709" duration="9000" />
       <workItem from="1582398196464" duration="8778000" />
-    </task>
-    <task id="LOCAL-00355" summary="Looks.">
-      <created>1582399971279</created>
-      <option name="number" value="00355" />
-      <option name="presentableId" value="LOCAL-00355" />
-      <option name="project" value="LOCAL" />
-      <updated>1582399971279</updated>
-    </task>
-    <task id="LOCAL-00356" summary="Looks.">
-      <created>1582400098248</created>
-      <option name="number" value="00356" />
-      <option name="presentableId" value="LOCAL-00356" />
-      <option name="project" value="LOCAL" />
-      <updated>1582400098248</updated>
-    </task>
-    <task id="LOCAL-00357" summary="Looks.">
-      <created>1582400161771</created>
-      <option name="number" value="00357" />
-      <option name="presentableId" value="LOCAL-00357" />
-      <option name="project" value="LOCAL" />
-      <updated>1582400161771</updated>
-    </task>
-    <task id="LOCAL-00358" summary="Looks.">
-      <created>1582400242548</created>
-      <option name="number" value="00358" />
-      <option name="presentableId" value="LOCAL-00358" />
-      <option name="project" value="LOCAL" />
-      <updated>1582400242548</updated>
     </task>
     <task id="LOCAL-00359" summary="Looks.">
       <created>1582400460970</created>
@@ -484,7 +454,35 @@
       <option name="project" value="LOCAL" />
       <updated>1582745228327</updated>
     </task>
-    <option name="localTasksCounter" value="404" />
+    <task id="LOCAL-00404" summary="                                            Looks.">
+      <created>1582745323153</created>
+      <option name="number" value="00404" />
+      <option name="presentableId" value="LOCAL-00404" />
+      <option name="project" value="LOCAL" />
+      <updated>1582745323153</updated>
+    </task>
+    <task id="LOCAL-00405" summary="                                            Looks.">
+      <created>1582745415050</created>
+      <option name="number" value="00405" />
+      <option name="presentableId" value="LOCAL-00405" />
+      <option name="project" value="LOCAL" />
+      <updated>1582745415050</updated>
+    </task>
+    <task id="LOCAL-00406" summary="hkjh˚">
+      <created>1582745476954</created>
+      <option name="number" value="00406" />
+      <option name="presentableId" value="LOCAL-00406" />
+      <option name="project" value="LOCAL" />
+      <updated>1582745476954</updated>
+    </task>
+    <task id="LOCAL-00407" summary="hkjh˚">
+      <created>1582745553123</created>
+      <option name="number" value="00407" />
+      <option name="presentableId" value="LOCAL-00407" />
+      <option name="project" value="LOCAL" />
+      <updated>1582745553123</updated>
+    </task>
+    <option name="localTasksCounter" value="408" />
     <servers />
   </component>
   <component name="TodoView">
@@ -568,7 +566,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed query" />
     <MESSAGE value="Import" />
     <MESSAGE value="Path fix" />
     <MESSAGE value="Auth urls added." />
@@ -593,17 +590,18 @@
     <MESSAGE value="Looks." />
     <MESSAGE value="                        Looks." />
     <MESSAGE value="                                            Looks." />
-    <option name="LAST_COMMIT_MESSAGE" value="                                            Looks." />
+    <MESSAGE value="hkjh˚" />
+    <option name="LAST_COMMIT_MESSAGE" value="hkjh˚" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="63" key="#DjangoModules-master" timestamp="1582241360698">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="63" key="#DjangoModules-master/0.0.1440.900@0.0.1440.900" timestamp="1582241360698" />
-    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1582745476745">
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1582745552822">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582745476745" />
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582745552822" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1582745114799">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -632,10 +630,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582241398285" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582745478805">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582745556352">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582745478805" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582745556352" />
     <state x="656" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1582398459690">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
