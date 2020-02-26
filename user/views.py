@@ -27,7 +27,7 @@ def register(request):
             form.save()
             username1 = form.cleaned_data.get('username')
             raw_password = form.cleaned_data.get('password1')
-            user=authenticate(username=username1, password=raw_password)
+            user = authenticate(username=username1, password=raw_password)
             user_group = form.cleaned_data['user_group'].field.queryset.all
             for assignment in user_group:
                 g = Group.objects.get(name=assignment)
