@@ -9,7 +9,7 @@ class SignUpForm(UserCreationForm):
         ("quiz_makers", "quiz_makers"),
         ("quiz_takers", "quiz_takers"),
     )
-    user_group = forms.ChoiceField(required=True, widget=forms.RadioSelect(
+    user_group = forms.CheckboxSelectMultiple(required=True, widget=forms.RadioSelect(
     attrs={'class': 'Radio'}), choices=user_group1)
 
     class Meta:
