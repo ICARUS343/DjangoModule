@@ -48,7 +48,7 @@ def quiz_taker(request):
 def quiz_admin(request):
     users = User.objects.all()
     context = {'users_list': users}
-    return render(request, 'quizApp/quiz_admin.html', context)
+    return render(request, 'quizApp/quiz_admin.html')
 
 
 def user_is_admin(user):
