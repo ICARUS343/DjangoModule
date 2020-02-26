@@ -141,28 +141,7 @@
       <workItem from="1582324704021" duration="3044000" />
       <workItem from="1582397403709" duration="9000" />
       <workItem from="1582398196464" duration="10384000" />
-      <workItem from="1582655855050" duration="2016000" />
-    </task>
-    <task id="LOCAL-00362" summary="Looks.">
-      <created>1582400562223</created>
-      <option name="number" value="00362" />
-      <option name="presentableId" value="LOCAL-00362" />
-      <option name="project" value="LOCAL" />
-      <updated>1582400562223</updated>
-    </task>
-    <task id="LOCAL-00363" summary="Looks.">
-      <created>1582400913384</created>
-      <option name="number" value="00363" />
-      <option name="presentableId" value="LOCAL-00363" />
-      <option name="project" value="LOCAL" />
-      <updated>1582400913384</updated>
-    </task>
-    <task id="LOCAL-00364" summary="Looks.">
-      <created>1582400947231</created>
-      <option name="number" value="00364" />
-      <option name="presentableId" value="LOCAL-00364" />
-      <option name="project" value="LOCAL" />
-      <updated>1582400947231</updated>
+      <workItem from="1582655855050" duration="2258000" />
     </task>
     <task id="LOCAL-00365" summary="Looks.">
       <created>1582400978391</created>
@@ -486,7 +465,28 @@
       <option name="project" value="LOCAL" />
       <updated>1582731528455</updated>
     </task>
-    <option name="localTasksCounter" value="411" />
+    <task id="LOCAL-00411" summary="Removed unwanted '/'">
+      <created>1582731984098</created>
+      <option name="number" value="00411" />
+      <option name="presentableId" value="LOCAL-00411" />
+      <option name="project" value="LOCAL" />
+      <updated>1582731984099</updated>
+    </task>
+    <task id="LOCAL-00412" summary="Removed unwanted '/'">
+      <created>1582732021210</created>
+      <option name="number" value="00412" />
+      <option name="presentableId" value="LOCAL-00412" />
+      <option name="project" value="LOCAL" />
+      <updated>1582732021210</updated>
+    </task>
+    <task id="LOCAL-00413" summary="Removed unwanted '/'">
+      <created>1582732086270</created>
+      <option name="number" value="00413" />
+      <option name="presentableId" value="LOCAL-00413" />
+      <option name="project" value="LOCAL" />
+      <updated>1582732086270</updated>
+    </task>
+    <option name="localTasksCounter" value="414" />
     <servers />
   </component>
   <component name="TodoView">
@@ -607,10 +607,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="63" key="#DjangoModules-master/0.0.1440.900@0.0.1440.900" timestamp="1582241360698" />
-    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1582732020875">
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1582732085948">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582732020875" />
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582732085948" />
     <state x="144" y="79" width="1152" height="720" key="DiffContextDialog" timestamp="1582412426347">
       <screen x="65" y="23" width="1375" height="877" />
     </state>
@@ -640,10 +640,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582241398285" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582732023338">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582732088478">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582732023338" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582732088478" />
     <state x="656" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1582655863289">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

@@ -5,9 +5,9 @@ from django.contrib.auth.models import User
 
 class SignUpForm(UserCreationForm):
     user_group1 = (
-        ("quiz_admins", "quiz_admins ()"),
-        ("quiz_makers", "quiz_makers ()"),
-        ("quiz_takers", "quiz_takers ()"),
+        ("quiz_admins", "quiz_admins (View and Remove current users.)"),
+        ("quiz_makers", "quiz_makers (View and modify quiz and questions.)"),
+        ("quiz_takers", "quiz_takers (Take a quiz)"),
     )
     user_group = forms.MultipleChoiceField(choices=user_group1, widget=forms.CheckboxSelectMultiple)
     class Meta:
