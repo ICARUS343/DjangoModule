@@ -30,6 +30,7 @@ def register(request):
             user = authenticate(username=username1, password=raw_password)
             user_group = form.cleaned_data.get('user_group')
             for assignment in user_group:
+                print (assignment)
                 g = Group.objects.get(name=assignment)
                 g.user_set.add(user)
                 user.groups.add(g)
