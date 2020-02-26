@@ -27,13 +27,12 @@ def register(request):
             form.save()
             username1 = form.cleaned_data.get('username')
             raw_password = form.cleaned_data.get('password1')
-            user=authenticate(username=username1, password=raw_password)
-
-            assignment = form.cleaned_data.get('user_group')
-
-            g = Group.objects.get(name=assignment)
-            g.user_set.add(user)
-            user.groups.add(g)
+            user = authenticate(username=username1, password=raw_password)
+            user_group = form.cleaned_data.get('user_group')
+            for assignment in user_group:
+                g = Group.objects.get(name=assignment)
+                g.user_set.add(user)
+                user.groups.add(g)
             auth_login(request, user)
             return redirect('/quizApp/')
     else:
