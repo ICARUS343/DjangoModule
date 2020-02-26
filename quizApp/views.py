@@ -6,18 +6,16 @@ from django.contrib.auth.decorators import login_required, user_passes_test
 from django.contrib.auth.models import Group, User
 
 
-
 @login_required(login_url='/accounts/login/')
 def index(request):
-    user_is_member : request.user.groups.all()
+    user_is_member: request.user.groups.all()
     if request.user in users_in_admin:
         return redirect('quiz_admin')
     if request.user in users_in_taker:
         return redirect('quiz_taker')
     if request.user in users_in_maker:
+        return redirect('quiz')
 
-    else:
-        return render(request, '/access')
 
 def quiz(request):
     try:
@@ -33,7 +31,7 @@ def quiz(request):
 @login_required(login_url='/accounts/login/')
 def question(request, quiz):
     try:
-        latest_question_list = Question.objects.filter(quiz_foreign_key = quiz)
+        latest_question_list = Question.objects.filter(quiz_foreign_key=quiz)
         context = {'latest_question_list': latest_question_list}
     except Question.DoesNotExist:
         raise Http404("Question does not exist")
@@ -49,7 +47,7 @@ def quiz_taker(request):
 @login_required(login_url='/accounts/login/')
 def quiz_admin(request):
     users = User.objects.all()
-    context = {'users_list':users}
+    context = {'users_list': users}
     return render(request, 'quizApp/quiz_admin.html', context)
 
 
