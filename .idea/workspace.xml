@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="                                            Looks.">
+    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,21 +140,7 @@
       <workItem from="1582324704021" duration="3044000" />
       <workItem from="1582397403709" duration="9000" />
       <workItem from="1582398196464" duration="10384000" />
-      <workItem from="1582655855050" duration="525000" />
-    </task>
-    <task id="LOCAL-00355" summary="Looks.">
-      <created>1582399971279</created>
-      <option name="number" value="00355" />
-      <option name="presentableId" value="LOCAL-00355" />
-      <option name="project" value="LOCAL" />
-      <updated>1582399971279</updated>
-    </task>
-    <task id="LOCAL-00356" summary="Looks.">
-      <created>1582400098248</created>
-      <option name="number" value="00356" />
-      <option name="presentableId" value="LOCAL-00356" />
-      <option name="project" value="LOCAL" />
-      <updated>1582400098248</updated>
+      <workItem from="1582655855050" duration="1235000" />
     </task>
     <task id="LOCAL-00357" summary="Looks.">
       <created>1582400161771</created>
@@ -485,7 +471,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582411374862</updated>
     </task>
-    <option name="localTasksCounter" value="404" />
+    <task id="LOCAL-00404" summary="Removed unwanted '/'">
+      <created>1582729663023</created>
+      <option name="number" value="00404" />
+      <option name="presentableId" value="LOCAL-00404" />
+      <option name="project" value="LOCAL" />
+      <updated>1582729663024</updated>
+    </task>
+    <task id="LOCAL-00405" summary="Removed unwanted '/'">
+      <created>1582729857658</created>
+      <option name="number" value="00405" />
+      <option name="presentableId" value="LOCAL-00405" />
+      <option name="project" value="LOCAL" />
+      <updated>1582729857658</updated>
+    </task>
+    <option name="localTasksCounter" value="406" />
     <servers />
   </component>
   <component name="TodoView">
@@ -574,7 +574,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed query" />
     <MESSAGE value="Import" />
     <MESSAGE value="Path fix" />
     <MESSAGE value="Auth urls added." />
@@ -599,17 +598,18 @@
     <MESSAGE value="Looks." />
     <MESSAGE value="                        Looks." />
     <MESSAGE value="                                            Looks." />
-    <option name="LAST_COMMIT_MESSAGE" value="                                            Looks." />
+    <MESSAGE value="Removed unwanted '/'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unwanted '/'" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="63" key="#DjangoModules-master" timestamp="1582241360698">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="63" key="#DjangoModules-master/0.0.1440.900@0.0.1440.900" timestamp="1582241360698" />
-    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1582729662366">
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1582729857338">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582729662366" />
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582729857338" />
     <state x="144" y="79" width="1152" height="720" key="DiffContextDialog" timestamp="1582412426347">
       <screen x="65" y="23" width="1375" height="877" />
     </state>
@@ -639,10 +639,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582241398285" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582729667211">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582729860277">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582729667211" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582729860277" />
     <state x="656" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1582655863289">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
