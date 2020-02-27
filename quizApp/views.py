@@ -8,7 +8,7 @@ from django.contrib.auth.models import Group, User
 
 @login_required(login_url='/accounts/login/')
 def index(request):
-    user_is_member: request.user.groups.all()
+    user_is_member = request.user.groups.all()
     if request.user in user_is_admin:
         return redirect('quiz_admin')
     if request.user in user_is_taker:
@@ -16,7 +16,7 @@ def index(request):
     if request.user in user_is_maker:
         return redirect('quiz')
 
-
+@login_required(login_url='/accounts/login/')
 def quiz(request):
     try:
         latest_quiz_list = Quiz.objects.order_by('id')[:5]
