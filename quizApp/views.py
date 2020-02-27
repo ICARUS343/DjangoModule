@@ -9,8 +9,8 @@ from django.contrib.auth.models import Group, User
 @login_required(login_url='/accounts/login/')
 def index(request):
     user_is_member = request.user.groups.all()
-    if request.user in user_is_member:
-        return redirect('quiz_admin')
+    #if request.user in user_is_member:
+    return redirect('quiz_admin')
     if request.user in user_is_member:
         return redirect('quiz_taker')
     if request.user in user_is_member:
