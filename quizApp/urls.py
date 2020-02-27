@@ -7,7 +7,7 @@ urlpatterns = [
     
     path('question/', views.question, name = 'question'),
     # ex: /quizApp/5/
-    path('<quiz>/', views.index, name='quiz_detail'),
+    path('<quiz>/', views.index, name='quizApp'),
     # ex: /quizApp/5/question/
     path('<quiz>/question/', views.question, name='question'),
     # ex: /quizApp/5/answer/
