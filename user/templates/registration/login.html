@@ -29,13 +29,18 @@
                                    type="password" class="form-control"></td>
                     </tr>
                     <tr>
-                        <td><input type="submit" value="Login"
+                       <td>
+
+                            <a class="btn btn-primary" style="float: right" href="{% url 'register' %}" role="button">Register</a>
+                        </td>
+                         <td><label classs="control-label">Already have an account: <a href="{% url 'login' %}">
+                                    LogIn</a></label>
+
+                         <td><input type="submit" value="Login"
                                    class="btn btn-primary"/>
                             <input type="hidden" name="next" value="{{ next }}"/></td>
 
-                        <td>
 
-                            <a class="btn btn-primary" style="float: right" href="{% url 'register' %}" role="button">Register</a>
 
                     </tr>
 
