@@ -32,7 +32,7 @@ def index():
         #     return redirect('quiz_taker')
         # if user_is_taker(request.user):
         #     return redirect('quiz_as')
-        return redirect('quiz_admin/')
+        return redirect('quiz_taker')
 
 
 @login_required(login_url='/accounts/login/')
