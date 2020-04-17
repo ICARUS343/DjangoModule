@@ -22,7 +22,7 @@ def user_is_taker(user):
 
 @login_required(login_url='/accounts/login/')
 def index(request):
-    for g in request.user.groups.all():
+        g = request.user.groups.all()
         if g in user_is_admin:
             return redirect('quiz_admin')
         if g in user_is_maker:
@@ -65,7 +65,7 @@ def quiz_maker(request):
 
 @login_required(login_url='/accounts/login/')
 def quiz_admin(request):
-    #users = User.objects.all()
-    #context = {'users_list': users}
-    return render(request, 'quizApp/quiz_admin.html')
+    users = User.objects.all()
+    context = {'users_list': users}
+    return render(request, 'quizApp/quiz_admin.html', context)
 
