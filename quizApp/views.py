@@ -23,11 +23,11 @@ def user_is_taker(user):
 @login_required(login_url='/accounts/login/')
 def index(request):
     for g in request.user.groups.all():
-        if g in user_is_member:
+        if g in user_is_admin:
             return redirect('quiz_admin')
-        if g in user_is_member:
+        if g in user_is_maker:
             return redirect('quiz_taker')
-        if g in user_is_member:
+        if g in user_is_taker:
             return redirect('quiz')
 
 @login_required(login_url='/accounts/login/')
