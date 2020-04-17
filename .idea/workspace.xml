@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
+    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="            Admin page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quizApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizApp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,13 +132,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
-    </task>
-    <task id="LOCAL-00296" summary="Access">
-      <created>1582096403825</created>
-      <option name="number" value="00296" />
-      <option name="presentableId" value="LOCAL-00296" />
-      <option name="project" value="LOCAL" />
-      <updated>1582096403825</updated>
     </task>
     <task id="LOCAL-00297" summary="Access">
       <created>1582096506620</created>
@@ -475,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587158263291</updated>
     </task>
-    <option name="localTasksCounter" value="345" />
+    <task id="LOCAL-00345" summary="            Admin page">
+      <created>1587158463362</created>
+      <option name="number" value="00345" />
+      <option name="presentableId" value="LOCAL-00345" />
+      <option name="project" value="LOCAL" />
+      <updated>1587158463363</updated>
+    </task>
+    <option name="localTasksCounter" value="346" />
     <servers />
   </component>
   <component name="TodoView">
@@ -547,14 +548,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="            Admin page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1994" y="142" key="CommitChangelistDialog2" timestamp="1587158262976">
+    <state x="1994" y="142" key="CommitChangelistDialog2" timestamp="1587158533642">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="1994" y="142" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587158262976" />
-    <state x="2000" y="268" key="Vcs.Push.Dialog.v2" timestamp="1587158266606">
+    <state x="1994" y="142" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587158533642" />
+    <state x="1540" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1587158701385">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="2000" y="268" key="Vcs.Push.Dialog.v2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587158266606" />
+    <state x="1540" y="100" width="1720" height="880" key="DiffContextDialog/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587158701385" />
+    <state x="2000" y="268" key="Vcs.Push.Dialog.v2" timestamp="1587158464622">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2000" y="268" key="Vcs.Push.Dialog.v2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587158464622" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

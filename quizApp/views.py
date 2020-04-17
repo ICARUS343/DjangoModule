@@ -17,11 +17,7 @@ def index(request):
     if request.user in users_in_taker:
         return redirect('quiz_taker')
     if request.user in users_in_maker:
-        latest_quiz_list = Quiz.objects.order_by('id')[:5]
-        context = {
-            'latest_quiz_list': latest_quiz_list,
-        }
-        return render(request, 'quizApp/quiz.html', context)
+       return riderect('quiz_maker')
     else:
         return render(request, '/access')
 
@@ -34,6 +30,18 @@ def question(request, quiz):
         raise Http404("Question does not exist")
 
     return render(request, 'quizApp/question.html', context)
+
+@login_required(login_url='/accounts/login/')
+def quiz(request):
+    try:
+        latest_quiz_list = Quiz.objects.order_by('id')[:5]
+        context = {
+            'latest_quiz_list': latest_quiz_list,
+        }
+    except Quiz.DoesNotExist:
+        raise Http404("Quiz does not exist")
+    return render(request, 'quizApp/quiz.html', context)
+
 
 
 @login_required(login_url='/accounts/login/')
