@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizApp/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,21 +140,7 @@
       <workItem from="1582398196464" duration="8778000" />
       <workItem from="1587088124596" duration="2338000" />
       <workItem from="1587094830790" duration="2338000" />
-      <workItem from="1587151100067" duration="252000" />
-    </task>
-    <task id="LOCAL-00399" summary="                                            Looks.">
-      <created>1582410630664</created>
-      <option name="number" value="00399" />
-      <option name="presentableId" value="LOCAL-00399" />
-      <option name="project" value="LOCAL" />
-      <updated>1582410630664</updated>
-    </task>
-    <task id="LOCAL-00400" summary="                                            Looks.">
-      <created>1582410664120</created>
-      <option name="number" value="00400" />
-      <option name="presentableId" value="LOCAL-00400" />
-      <option name="project" value="LOCAL" />
-      <updated>1582410664120</updated>
+      <workItem from="1587151100067" duration="522000" />
     </task>
     <task id="LOCAL-00401" summary="                                            Looks.">
       <created>1582410762143</created>
@@ -488,7 +471,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587100559676</updated>
     </task>
-    <option name="localTasksCounter" value="448" />
+    <task id="LOCAL-00448" summary="```            asdsa```">
+      <created>1587154517060</created>
+      <option name="number" value="00448" />
+      <option name="presentableId" value="LOCAL-00448" />
+      <option name="project" value="LOCAL" />
+      <updated>1587154517061</updated>
+    </task>
+    <task id="LOCAL-00449" summary="&#10;das">
+      <created>1587154748624</created>
+      <option name="number" value="00449" />
+      <option name="presentableId" value="LOCAL-00449" />
+      <option name="project" value="LOCAL" />
+      <updated>1587154748624</updated>
+    </task>
+    <option name="localTasksCounter" value="450" />
     <servers />
   </component>
   <component name="TodoView">
@@ -572,12 +569,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Login Html" />
     <MESSAGE value="Base html path." />
     <MESSAGE value="&#10;&#10;sadas" />
     <MESSAGE value="Added templates for user app." />
     <MESSAGE value="Login redirect" />
-    <MESSAGE value="&#10;das" />
     <MESSAGE value="Test" />
     <MESSAGE value="Registration" />
     <MESSAGE value="Back and Register button in register and login." />
@@ -597,18 +592,20 @@
     <MESSAGE value="asd" />
     <MESSAGE value="asdsa" />
     <MESSAGE value="            asdsa" />
-    <option name="LAST_COMMIT_MESSAGE" value="            asdsa" />
+    <MESSAGE value="```            asdsa```" />
+    <MESSAGE value="&#10;das" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;das" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="63" key="#DjangoModules-master" timestamp="1582241360698">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="63" key="#DjangoModules-master/0.0.1440.900@0.0.1440.900" timestamp="1582241360698" />
-    <state x="1859" y="62" key="CommitChangelistDialog2" timestamp="1587154516658">
+    <state x="1859" y="62" key="CommitChangelistDialog2" timestamp="1587154753065">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587100559295" />
-    <state x="1859" y="62" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587154516658" />
+    <state x="1859" y="62" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587154753065" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1582745114799">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -637,11 +634,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582241398285" />
-    <state x="1867" y="228" key="Vcs.Push.Dialog.v2" timestamp="1587154521470">
+    <state x="1867" y="228" key="Vcs.Push.Dialog.v2" timestamp="1587154755836">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587100573576" />
-    <state x="1867" y="228" key="Vcs.Push.Dialog.v2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587154521470" />
+    <state x="1867" y="228" key="Vcs.Push.Dialog.v2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587154755836" />
     <state x="656" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1587094829748">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
