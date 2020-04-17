@@ -14,7 +14,7 @@ def login(request):
         if user is not None:
             if user.is_active:
                 auth_login(request, user)
-                return redirect('quizApp/')
+                return redirect('quizApp/quizApp')
             else:
                 return redirect('/accounts/register/')
     return render(request, 'registration/login.html')
@@ -34,7 +34,7 @@ def register(request):
                 g.user_set.add(user)
                 user.groups.add(g)
             auth_login(request, user)
-            return redirect('/quizApp/')
+            return redirect('/quizApp/quizApp')
     else:
         form = SignUpForm()
     return render(request, 'registration/register.html', {'form': form})

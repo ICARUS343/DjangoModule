@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,14 +138,7 @@
       <workItem from="1582324704021" duration="3044000" />
       <workItem from="1582397403709" duration="9000" />
       <workItem from="1582398196464" duration="8778000" />
-      <workItem from="1587088124596" duration="1281000" />
-    </task>
-    <task id="LOCAL-00390" summary="                        Looks.">
-      <created>1582408257300</created>
-      <option name="number" value="00390" />
-      <option name="presentableId" value="LOCAL-00390" />
-      <option name="project" value="LOCAL" />
-      <updated>1582408257300</updated>
+      <workItem from="1587088124596" duration="1575000" />
     </task>
     <task id="LOCAL-00391" summary="                        Looks.">
       <created>1582408313033</created>
@@ -486,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587088921709</updated>
     </task>
-    <option name="localTasksCounter" value="439" />
+    <task id="LOCAL-00439" summary="asd">
+      <created>1587089641731</created>
+      <option name="number" value="00439" />
+      <option name="presentableId" value="LOCAL-00439" />
+      <option name="project" value="LOCAL" />
+      <updated>1587089641731</updated>
+    </task>
+    <option name="localTasksCounter" value="440" />
     <servers />
   </component>
   <component name="TodoView">
@@ -602,11 +599,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="63" key="#DjangoModules-master/0.0.1440.900@0.0.1440.900" timestamp="1582241360698" />
-    <state x="1859" y="62" key="CommitChangelistDialog2" timestamp="1587088921336">
+    <state x="1859" y="62" key="CommitChangelistDialog2" timestamp="1587089641373">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582879391114" />
-    <state x="1859" y="62" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587088921336" />
+    <state x="1859" y="62" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587089641373" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1582745114799">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -635,11 +632,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582241398285" />
-    <state x="1867" y="228" key="Vcs.Push.Dialog.v2" timestamp="1587088923269">
+    <state x="1867" y="228" key="Vcs.Push.Dialog.v2" timestamp="1587089764517">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582879393402" />
-    <state x="1867" y="228" key="Vcs.Push.Dialog.v2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587088923269" />
+    <state x="1867" y="228" key="Vcs.Push.Dialog.v2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587089764517" />
     <state x="656" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1582398459690">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
