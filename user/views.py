@@ -14,7 +14,7 @@ def login(request):
         if user is not None:
             if user.is_active:
                 auth_login(request, user)
-                return redirect(' quizApp/')
+                return redirect('quizApp/')
             else:
                 return redirect('/accounts/register/')
     return render(request, 'registration/login.html')
