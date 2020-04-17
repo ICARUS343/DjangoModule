@@ -142,21 +142,8 @@
       <workItem from="1582397403709" duration="9000" />
       <workItem from="1582398196464" duration="8778000" />
       <workItem from="1587088124596" duration="2338000" />
-      <workItem from="1587094830790" duration="1990000" />
-    </task>
-    <task id="LOCAL-00397" summary="                                            Looks.">
-      <created>1582409834916</created>
-      <option name="number" value="00397" />
-      <option name="presentableId" value="LOCAL-00397" />
-      <option name="project" value="LOCAL" />
-      <updated>1582409834916</updated>
-    </task>
-    <task id="LOCAL-00398" summary="                                            Looks.">
-      <created>1582409940291</created>
-      <option name="number" value="00398" />
-      <option name="presentableId" value="LOCAL-00398" />
-      <option name="project" value="LOCAL" />
-      <updated>1582409940291</updated>
+      <workItem from="1587094830790" duration="2338000" />
+      <workItem from="1587151100067" duration="252000" />
     </task>
     <task id="LOCAL-00399" summary="                                            Looks.">
       <created>1582410630664</created>
@@ -487,7 +474,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587090512527</updated>
     </task>
-    <option name="localTasksCounter" value="446" />
+    <task id="LOCAL-00446" summary="asdsa">
+      <created>1587100360279</created>
+      <option name="number" value="00446" />
+      <option name="presentableId" value="LOCAL-00446" />
+      <option name="project" value="LOCAL" />
+      <updated>1587100360280</updated>
+    </task>
+    <task id="LOCAL-00447" summary="            asdsa">
+      <created>1587100559676</created>
+      <option name="number" value="00447" />
+      <option name="presentableId" value="LOCAL-00447" />
+      <option name="project" value="LOCAL" />
+      <updated>1587100559676</updated>
+    </task>
+    <option name="localTasksCounter" value="448" />
     <servers />
   </component>
   <component name="TodoView">
@@ -571,8 +572,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Path fix" />
-    <MESSAGE value="Auth urls added." />
     <MESSAGE value="Login Html" />
     <MESSAGE value="Base html path." />
     <MESSAGE value="&#10;&#10;sadas" />
@@ -596,17 +595,19 @@
     <MESSAGE value="                                            Looks." />
     <MESSAGE value="hkjh˚" />
     <MESSAGE value="asd" />
-    <option name="LAST_COMMIT_MESSAGE" value="asd" />
+    <MESSAGE value="asdsa" />
+    <MESSAGE value="            asdsa" />
+    <option name="LAST_COMMIT_MESSAGE" value="            asdsa" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="63" key="#DjangoModules-master" timestamp="1582241360698">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="63" key="#DjangoModules-master/0.0.1440.900@0.0.1440.900" timestamp="1582241360698" />
-    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1587100359729">
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1587100559295">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587100359729" />
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587100559295" />
     <state x="1859" y="62" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587090512210" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1582745114799">
       <screen x="0" y="0" width="1440" height="900" />
@@ -636,10 +637,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582241398285" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587100363470">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587100573576">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587100363470" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587100573576" />
     <state x="1867" y="228" key="Vcs.Push.Dialog.v2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587090513985" />
     <state x="656" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1587094829748">
       <screen x="0" y="0" width="1440" height="900" />
