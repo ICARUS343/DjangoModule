@@ -29,10 +29,11 @@ def index(request):
             return redirect('quiz_admin')
 
         if user_is_maker(request.user):
+            print("asdasdasdasdasd")
             return redirect('quiz_maker')
         if user_is_taker(request.user):
             return redirect('quiz_taker')
-        #return redirect('quiz_admin')
+        return redirect('quiz_admin')
 
 
 @login_required(login_url='/accounts/login/')
