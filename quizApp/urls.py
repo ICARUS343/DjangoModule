@@ -17,3 +17,4 @@ urlpatterns = [
     path('/quiz_admin/', views.quiz_admin, name='quiz_admin')
 
 ]
+asdasd
