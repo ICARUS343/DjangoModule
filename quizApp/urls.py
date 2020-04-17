@@ -9,7 +9,7 @@ urlpatterns = [
     # ex: /quizApp/5/
     path('<quiz>/', views.index, name='quizApp'),
     # ex: /quizApp/5/question/
-    path('<quiz>/question/', views.question, name='question'),
+    #path('<quiz>/question/', views.question, name='question'),
     # ex: /quizApp/5/answer/
     #path('<int:quiz_id>/answer/', views.answer_detail, name='answer_detail'),
 
