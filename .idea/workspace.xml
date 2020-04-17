@@ -133,27 +133,6 @@
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
     </task>
-    <task id="LOCAL-00297" summary="Access">
-      <created>1582096506620</created>
-      <option name="number" value="00297" />
-      <option name="presentableId" value="LOCAL-00297" />
-      <option name="project" value="LOCAL" />
-      <updated>1582096506620</updated>
-    </task>
-    <task id="LOCAL-00298" summary="Access">
-      <created>1582096611832</created>
-      <option name="number" value="00298" />
-      <option name="presentableId" value="LOCAL-00298" />
-      <option name="project" value="LOCAL" />
-      <updated>1582096611832</updated>
-    </task>
-    <task id="LOCAL-00299" summary="Access">
-      <created>1582096750893</created>
-      <option name="number" value="00299" />
-      <option name="presentableId" value="LOCAL-00299" />
-      <option name="project" value="LOCAL" />
-      <updated>1582096750893</updated>
-    </task>
     <task id="LOCAL-00300" summary="sad">
       <created>1582096842066</created>
       <option name="number" value="00300" />
@@ -476,7 +455,28 @@
       <option name="project" value="LOCAL" />
       <updated>1587158463363</updated>
     </task>
-    <option name="localTasksCounter" value="346" />
+    <task id="LOCAL-00346" summary="            Admin page">
+      <created>1587160074098</created>
+      <option name="number" value="00346" />
+      <option name="presentableId" value="LOCAL-00346" />
+      <option name="project" value="LOCAL" />
+      <updated>1587160074098</updated>
+    </task>
+    <task id="LOCAL-00347" summary="            Admin page">
+      <created>1587160110856</created>
+      <option name="number" value="00347" />
+      <option name="presentableId" value="LOCAL-00347" />
+      <option name="project" value="LOCAL" />
+      <updated>1587160110856</updated>
+    </task>
+    <task id="LOCAL-00348" summary="            Admin page">
+      <created>1587160181325</created>
+      <option name="number" value="00348" />
+      <option name="presentableId" value="LOCAL-00348" />
+      <option name="project" value="LOCAL" />
+      <updated>1587160181325</updated>
+    </task>
+    <option name="localTasksCounter" value="349" />
     <servers />
   </component>
   <component name="TodoView">
@@ -548,18 +548,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="            Admin page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1994" y="142" key="CommitChangelistDialog2" timestamp="1587160110547">
+    <state x="1994" y="142" key="CommitChangelistDialog2" timestamp="1587160362717">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="1994" y="142" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587160110547" />
-    <state x="1540" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1587158701385">
+    <state x="1994" y="142" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587160362717" />
+    <state x="1540" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1587160541908">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="1540" y="100" width="1720" height="880" key="DiffContextDialog/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587158701385" />
-    <state x="2000" y="268" key="Vcs.Push.Dialog.v2" timestamp="1587160112066">
+    <state x="1540" y="100" width="1720" height="880" key="DiffContextDialog/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587160523231" />
+    <state x="1540" y="100" width="1720" height="880" key="DiffContextDialog/1440.0.1920.1080/72.23.1368.877@1440.0.1920.1080" timestamp="1587160541908" />
+    <state x="2000" y="268" key="Vcs.Push.Dialog.v2" timestamp="1587160252576">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="2000" y="268" key="Vcs.Push.Dialog.v2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587160112066" />
+    <state x="2000" y="268" key="Vcs.Push.Dialog.v2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587160252576" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

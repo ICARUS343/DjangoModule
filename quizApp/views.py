@@ -8,15 +8,15 @@ from django.contrib.auth.models import Group, User
 
 
 @login_required(login_url='/accounts/login/')
-def index(request):
+def index(user):
     users_in_admin = Group.objects.get(name='quiz_admins').user_set.all()
     users_in_taker = Group.objects.get(name='quiz_takers').user_set.all()
     users_in_maker = Group.objects.get(name='quiz_makers').user_set.all()
-    if request.user in users_in_admin:
+    if user in users_in_admin:
         return redirect('quiz_admin')
-    if request.user in users_in_taker:
+    if user in users_in_taker:
         return redirect('quiz_taker')
-    if request.user in users_in_maker:
+    if user in users_in_maker:
        return riderect('quiz_maker')
     else:
         return render(request, '/access')
@@ -30,9 +30,9 @@ def question(request, quiz):
         raise Http404("Question does not exist")
 
     return render(request, 'quizApp/question.html', context)
-
+s
 @login_required(login_url='/accounts/login/')
-def quiz(request):
+def quiz_detail(request):
     try:
         latest_quiz_list = Quiz.objects.order_by('id')[:5]
         context = {
