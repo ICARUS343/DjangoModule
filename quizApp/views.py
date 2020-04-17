@@ -47,17 +47,17 @@ def quiz(request):
         raise Http404("Quiz does not exist")
     return render(request, 'quizApp/quiz.html', context)
 
-
-@login_required(login_url='/accounts/login/')
-def question(request, quiz):
-    try:
-        latest_question_list = Question.objects.filter(quiz_foreign_key=quiz)
-        context = {'latest_question_list': latest_question_list}
-    except Question.DoesNotExist:
-        raise Http404("Question does not exist")
-
-    return render(request, 'quizApp/question.html', context)
-
+#
+# @login_required(login_url='/accounts/login/')
+# def question(request, quiz):
+#     try:
+#         latest_question_list = Question.objects.filter(quiz_foreign_key=quiz)
+#         context = {'latest_question_list': latest_question_list}
+#     except Question.DoesNotExist:
+#         raise Http404("Question does not exist")
+#
+#     return render(request, 'quizApp/question.html', context)
+#
 
 @login_required(login_url='/accounts/login/')
 def quiz_taker(request):
