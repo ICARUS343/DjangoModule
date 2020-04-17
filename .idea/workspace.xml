@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="" />
+    <list default="true" id="d26b9c7d-6eb0-4caf-b0ea-b71fea279b8f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,17 +37,6 @@
         <option value="HTML File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>next</find>
-      <find>post</find>
-      <find>login</find>
-      <find>quiz</find>
-    </findStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/quizApp/templates/quizApp</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -140,27 +131,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581805311739</updated>
-    </task>
-    <task id="LOCAL-00293" summary="Access">
-      <created>1582095854931</created>
-      <option name="number" value="00293" />
-      <option name="presentableId" value="LOCAL-00293" />
-      <option name="project" value="LOCAL" />
-      <updated>1582095854931</updated>
-    </task>
-    <task id="LOCAL-00294" summary="Access">
-      <created>1582096151658</created>
-      <option name="number" value="00294" />
-      <option name="presentableId" value="LOCAL-00294" />
-      <option name="project" value="LOCAL" />
-      <updated>1582096151658</updated>
-    </task>
-    <task id="LOCAL-00295" summary="Access">
-      <created>1582096307618</created>
-      <option name="number" value="00295" />
-      <option name="presentableId" value="LOCAL-00295" />
-      <option name="project" value="LOCAL" />
-      <updated>1582096307618</updated>
     </task>
     <task id="LOCAL-00296" summary="Access">
       <created>1582096403825</created>
@@ -484,7 +454,28 @@
       <option name="project" value="LOCAL" />
       <updated>1582104831219</updated>
     </task>
-    <option name="localTasksCounter" value="342" />
+    <task id="LOCAL-00342" summary="            Admin page">
+      <created>1587158146661</created>
+      <option name="number" value="00342" />
+      <option name="presentableId" value="LOCAL-00342" />
+      <option name="project" value="LOCAL" />
+      <updated>1587158146661</updated>
+    </task>
+    <task id="LOCAL-00343" summary="            Admin page">
+      <created>1587158182995</created>
+      <option name="number" value="00343" />
+      <option name="presentableId" value="LOCAL-00343" />
+      <option name="project" value="LOCAL" />
+      <updated>1587158182995</updated>
+    </task>
+    <task id="LOCAL-00344" summary="            Admin page">
+      <created>1587158263290</created>
+      <option name="number" value="00344" />
+      <option name="presentableId" value="LOCAL-00344" />
+      <option name="project" value="LOCAL" />
+      <updated>1587158263291</updated>
+    </task>
+    <option name="localTasksCounter" value="345" />
     <servers />
   </component>
   <component name="TodoView">
@@ -512,6 +503,11 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -551,14 +547,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="            Admin page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1994" y="142" key="CommitChangelistDialog2" timestamp="1587158182747">
+    <state x="1994" y="142" key="CommitChangelistDialog2" timestamp="1587158262976">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="1994" y="142" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587158182747" />
-    <state x="2000" y="268" key="Vcs.Push.Dialog.v2" timestamp="1587158191139">
+    <state x="1994" y="142" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587158262976" />
+    <state x="2000" y="268" key="Vcs.Push.Dialog.v2" timestamp="1587158266606">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="2000" y="268" key="Vcs.Push.Dialog.v2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587158191139" />
+    <state x="2000" y="268" key="Vcs.Push.Dialog.v2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587158266606" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
