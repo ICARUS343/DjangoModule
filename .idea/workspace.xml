@@ -54,7 +54,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="MIXED" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="714" />
@@ -549,6 +549,16 @@
     <MESSAGE value="Admin page" />
     <MESSAGE value="            Admin page" />
     <option name="LAST_COMMIT_MESSAGE" value="            Admin page" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1994" y="142" key="CommitChangelistDialog2" timestamp="1587158146409">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1994" y="142" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587158146409" />
+    <state x="2000" y="268" key="Vcs.Push.Dialog.v2" timestamp="1587158154930">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2000" y="268" key="Vcs.Push.Dialog.v2/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1587158154930" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
