@@ -21,7 +21,7 @@ def user_is_taker(user):
 
 
 @login_required(login_url='/accounts/login/')
-def index(request):
+def index():
         # g = request.user.groups.all()
         # print(g)
         # if user_is_admin(request.user):
