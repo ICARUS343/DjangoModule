@@ -32,6 +32,8 @@ def index(request):
             return redirect('quiz_taker')
         if user_is_taker(request.user):
             return redirect('quiz')
+        return redirect('quiz_admin')
+
 
 @login_required(login_url='/accounts/login/')
 def quiz(request):
