@@ -22,16 +22,16 @@ def user_is_taker(user):
 
 @login_required(login_url='/accounts/login/')
 def index(request):
-        g = request.user.groups.all()
-        print(g)
-        if user_is_admin(request.user):
-            print("asdklasjdlkasjdkljaskdl")
-            return redirect('quiz_admin')
-
-        if user_is_maker(request.user):
-            return redirect('quiz_taker')
-        if user_is_taker(request.user):
-            return redirect('quiz')
+        # g = request.user.groups.all()
+        # print(g)
+        # if user_is_admin(request.user):
+        #     print("asdklasjdlkasjdkljaskdl")
+        #     return redirect('quiz_admin')
+        #
+        # if user_is_maker(request.user):
+        #     return redirect('quiz_taker')
+        # if user_is_taker(request.user):
+        #     return redirect('quiz_as')
         return redirect('quiz_admin')
 
 
