@@ -6,15 +6,29 @@ from django.contrib.auth.decorators import login_required, user_passes_test
 from django.contrib.auth.models import Group, User
 
 
+
+def user_is_admin(user):
+    return user.groups.filter(name='quiz_admin').count()
+
+
+def user_is_maker(user):
+    return user.groups.filter(name='quiz_maker').count()
+
+
+def user_is_taker(user):
+    return user.groups.filter(name='quiz_taker').count()
+
+
+
 @login_required(login_url='/accounts/login/')
 def index(request):
-    user_is_member = request.user.groups.all()
-    if request.user in user_is_member:
-        return redirect('quiz_admin')
-    if request.user in user_is_member:
-        return redirect('quiz_taker')
-    if request.user in user_is_member:
-        return redirect('quiz')
+    for g in request.user.groups.all():
+        if g in user_is_member:
+            return redirect('quiz_admin')
+        if g in user_is_member:
+            return redirect('quiz_taker')
+        if g in user_is_member:
+            return redirect('quiz')
 
 @login_required(login_url='/accounts/login/')
 def quiz(request):
@@ -55,14 +69,3 @@ def quiz_admin(request):
     #context = {'users_list': users}
     return render(request, 'quizApp/quiz_admin.html')
 
-
-def user_is_admin(user):
-    return user.groups.filter(name='quiz_admin').count()
-
-
-def user_is_maker(user):
-    return user.groups.filter(name='quiz_maker').count()
-
-
-def user_is_taker(user):
-    return user.groups.filter(name='quiz_taker').count()
